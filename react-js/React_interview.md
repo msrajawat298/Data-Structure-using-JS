@@ -20,3 +20,68 @@ How to track is our react app optimze application such as we have used useMemo o
 
 what is cache header?
 How to use profiler in react js?
+What is react portal?
+what is useReducer
+
+
+The useReducer hook in React is a powerful alternative to useState for managing complex state logic in functional components. It is particularly useful when the state logic involves multiple sub-values or when the next state depends on the previous state. It is similar to how you would use reducers in Redux.
+
+Key Points
+Reducer Function: A function that takes the current state and an action, and returns the new state.
+Initial State: The initial state value.
+Dispatch Function: A function to dispatch actions to the reducer.
+Syntax
+const [state, dispatch] = useReducer(reducer, initialState);
+
+Example Code
+Here's a simple example of using useReducer to manage a counter:
+
+Reducer Function
+// JavaScript
+
+function counterReducer(state, action) {
+  switch (action.type) {
+    case 'increment':
+      return { count: state.count + 1 };
+    case 'decrement':
+      return { count: state.count - 1 };
+    default:
+      throw new Error();
+  }
+}
+
+Component Using useReducer
+// JavaScript
+
+import React, { useReducer } from 'react';
+
+function Counter() {
+  const initialState = { count: 0 };
+  const [state, dispatch] = useReducer(counterReducer, initialState);
+
+  return (
+    <div>
+      <p>Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'increment' })}>Increment</button>
+      <button onClick={() => dispatch({ type: 'decrement' })}>Decrement</button>
+    </div>
+  );
+}
+
+export default Counter;
+
+
+
+Explanation
+Reducer Function: counterReducer takes the current state and an action, and returns the new state based on the action type.
+Initial State: initialState is an object with a count property set to 0.
+useReducer Hook: useReducer is called with the counterReducer and initialState. It returns the current state and a dispatch function.
+Dispatching Actions: The dispatch function is used to send actions to the reducer. In this example, clicking the buttons dispatches increment and decrement actions.
+Summary
+useReducer: A hook for managing complex state logic in functional components.
+Reducer Function: Defines how the state should change in response to actions.
+Initial State: The starting state value.
+Dispatch Function: Used to send actions to the reducer.
+
+
+what is custom hooks?
