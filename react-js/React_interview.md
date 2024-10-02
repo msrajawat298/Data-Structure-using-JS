@@ -12,6 +12,10 @@
 - [Custom Hooks](https://youtu.be/Vs43P8zcRr4?si=WccVdX891-CrCpVs)
 - [Lazy Loading](https://youtu.be/-L2e1dR1UIE?si=5IQgKKuPV7b9JkLG)
 - [Core Concepts of Redux](https://www.youtube.com/playlist?list=PLp18NAIKHWnuq1ODXRD-3ivVJ3R89A5UL)
+- [React Portal](https://youtu.be/HpHLa-5Wdys?si=aGjMjXP59dGwAFSd)
+- [Error Boundary]()
+
+
 
 
 ## Interview Questions
@@ -173,3 +177,18 @@ Cache headers are HTTP headers used to specify how long the browser or intermedi
 - **`Cache-Control`**: Specifies caching policies (e.g., `public`, `private`, `max-age`).
 - **`Expires`**: Sets an expiration date for when a resource should no longer be considered fresh.
 - **`ETag`**: Used for versioning resources, ensuring the client always has the most recent version.
+
+
+[8 React Js performance optimization techniques YOU HAVE TO KNOW!](https://youtu.be/CaShN6mCJB0?si=uOUXEbQgR1y-TjeR)
+- LIST VIRTUALIZATION OR WINDOWING
+- Lazy Loading Image
+- Memoization (useMemo, useCallback) 
+  - useMemo save the result 
+  - useCallback save the complete function, it useful when you are passing as the props in the function.
+- THROTTLING AND DEBOUNCING EVENTS
+  - THROTTLING: FUNCTION IS REPEATEDLY INVOKED AFTER A GIVEN INTERVAL
+  - DEBOUNCE: FUNCTION IS INVOKED AFTER A CERTAIN PERIOD OF INACTIVITY
+- Code Splitting/Code refactor
+- React Fragment
+- Web Workers
+- USETRANSITION HOOK

@@ -301,3 +301,69 @@ Some commonly used ES6 features:
   ```
 
 - **let/const**: Block-scoped variable declarations.
+
+
+### 19. What is curry in js ?
+Currying is a functional programming technique in JavaScript where a function is transformed into a sequence of functions, each taking a single argument. Instead of taking all arguments at once, a curried function takes the first argument and returns a new function that takes the second argument, and so on, until all arguments have been provided.
+
+- Non-Curried Function
+  ```js
+  function add(a, b) {
+    return a + b;
+  }
+
+  console.log(add(2, 3)); // Output: 5
+  ```
+  Curried Function
+  ```js
+    function add(a) {
+    return function(b) {
+      return a + b;
+    };
+  }
+
+  const addTwo = add(2);
+  console.log(addTwo(3)); // Output: 5
+
+  // Or directly
+  console.log(add(2)(3)); // Output: 5
+  ```
+### Benefits of Currying
+- Reusability: Curried functions can be partially applied, creating new functions with preset arguments.
+- Function Composition: Currying makes it easier to compose functions and create more modular and reusable code.
+- Readability: It can make the code more readable and expressive, especially when dealing with higher-order functions.
+- Practical Example
+  ```js
+    function multiply(a) {
+    return function(b) {
+      return a * b;
+    };
+  }
+
+  const double = multiply(2);
+  const triple = multiply(3);
+
+  console.log(double(5)); // Output: 10
+  console.log(triple(5)); // Output: 15
+
+  4. Configuration
+  const configureRequest = method => url => data => {
+    return fetch(url, {
+      method,
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+  };
+
+  const postRequest = configureRequest('POST');
+  const putRequest = configureRequest('PUT');
+
+  postRequest('/api/data')({ key: 'value' }).then(response => response.json()).then(data => console.log(data));
+  putRequest('/api/data/1')({ key: 'newValue' }).then(response => response.json()).then(data => console.log(data));
+```
+### Summary
+- Currying: Transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
+- Benefits: Enhances reusability, function composition, and readability.
+- Usage: Useful in scenarios like event handling, configuration settings, and creating partially applied functions.
