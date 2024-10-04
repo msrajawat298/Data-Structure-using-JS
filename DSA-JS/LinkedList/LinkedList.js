@@ -7,8 +7,8 @@
  */
 class Node {
     constructor(data) {
-        this.data = (val===undefined ? 0 : data);
-        this.next = (next===undefined ? null : next);
+        this.head = (val===undefined ? 0 : data);
+        this.tail = (next===undefined ? null : next);
     }
 }
 
