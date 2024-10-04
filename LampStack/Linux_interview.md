@@ -51,3 +51,6 @@
      ```bash
      kill -9 PID
      ```
+
+
+     how to write into the file without opening it
