@@ -86,3 +86,6 @@
 - Stateless Operations: Each request from the client to the server must contain all the information needed to understand and process the request.
 - Representation: Resources are represented in a format like JSON or XML.
 - Hypermedia as the Engine of Application State (HATEOAS): Clients interact with the application entirely through hypermedia provided dynamically by application servers.
+
+## What is the d/f b/w stateless and stateful and there pros & cons.
+## Is Http stateless and why?

@@ -53,7 +53,7 @@ a.x(); // `this` refers to the object `a` in a node js and window object in case
 ```
 
 ## 4. Closures in JavaScript
-A **closure** is a function that remembers its lexical environment even when it’s executed outside its original scope.
+A **Closure** is a function that remembers its lexical environment even when it’s executed outside its original scope.
 
 ### Example:
 ```js
@@ -368,5 +368,14 @@ Currying is a functional programming technique in JavaScript where a function is
   - Benefits: Enhances reusability, function composition, and readability.
   - Usage: Useful in scenarios like event handling, configuration settings, and creating partially applied functions.
 
-### What is JWT token?
+### What is JWT token and d/f part of jwt token?
 ### Difference between packages and libraries and framework?
+### D/F B/W Promise.All and Promise.Settled?
+### D/F B/W slice and splice?
+### What is Callback?
+### D/f b/w Call & Apply and bind?
+### D/f b/w arrow and regular function ?
+### D/f b/w JS and TS?
+### What is static typing in TS?
+### D/f b/w npm and yarn?
+
