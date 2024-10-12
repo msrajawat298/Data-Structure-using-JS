@@ -1,0 +1,2 @@
+- [Make a layer editable](https://youtu.be/B3y7s5bCHN0?si=WN_a1KDw3dxzJE97)
+- [ArcGIS Enterprise: Best Practices for Layers and Service Types](https://youtu.be/ULhrWCIH0SQ?si=IfpBMOYzDicM0U1-)

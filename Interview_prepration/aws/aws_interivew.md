@@ -109,3 +109,6 @@ Amazon EFS: Best for shared access across multiple EC2 instances, automatically 
 Amazon S3: Best for highly scalable, cost-effective object storage. Storage is dynamic, and only the actual usage is billed, with additional charges for data transfer and operations.
 
 The table provides a comparative view of each option and clarifies why S3 is recommended for your use case (scalable uploads with minimal management overhead and cost efficiency).
+
+
+what is ingress?
