@@ -27,3 +27,19 @@
 
 ### 7. What is Namespace ?
 ### 8. Create a two class with the name of transaction that have function with the name of handel  (one will handel the paypal transaction and other razaorpay). Use Transaction class such a way that we will call the handel function it should work for paypal as well as razaorpay without modification into the existing class.
+- What are d/f b/w php-7 and php-8?
+- D/f b/w print and echo?
+- Array combine & Array merge?
+- What is abstract class in php?
+- What is interface?
+- how to implement multiple inheritance in php?
+- How to use interface in php?
+- what is PSR-12 ?
+- what is traits?
+- If cookie is used client side how php server side script handel the cookie?
+- How to implement cache in php?
+- What is SRO operator and what is it use?
+- What is the use of final keyword?
+- Implement the SOLID principle in php.
+- Implement the Singleton Design pattern.
+- How many class will you create in you project how will you decided if we take an example of atm machine.
