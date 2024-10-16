@@ -22,7 +22,8 @@
 - How will you optimize the wordpress site? (cdn, webp, minify)
 - What is box modal (in css developer tool) ?
 - What is Sass (CSS framework) and what is major advantage of using it?
-- 
+- How could you migrate large database in wordpress?
+
 
 
  

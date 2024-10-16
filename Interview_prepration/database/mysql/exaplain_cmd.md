@@ -1,13 +1,3 @@
-### What is indexes and which column we can use it?
-### How many column can have in a table?
-### Why we are using the mysql indexes ?
-### what if we are not using the indexes?
-### What is the cons of indexes?
-### What is store procedure ?
-### When We Should use having clause or order by having?
-### How to check it query is slow sql query ?
-### How to know the index is used in mysql?
-
 In MySQL, you can determine whether an index is being used by examining the query execution plan using the `EXPLAIN` statement. This command shows how MySQL is executing the query, including which indexes (if any) are being utilized.
 
 Here’s how you can check if an index is being used in MySQL:
