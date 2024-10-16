@@ -89,3 +89,8 @@
 
 ## What is the d/f b/w stateless and stateful and there pros & cons.
 ## Is Http stateless and why?
+## What is use of preflight request?
+## if I am hit one url on browser and it is rendering some html pages how it is happening ?
+## How osi layer come in the picture?
+## Let you have loged in facebook how server knows the user already authenticate so not asking again login credential.
+## Can we change the port number in apache like in listen 80 or 443 can we alter this is possible?

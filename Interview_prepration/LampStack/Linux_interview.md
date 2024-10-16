@@ -1,17 +1,17 @@
-### 1. **There are 1000 lines in a file and we want to print 100 lines where we find a specified word. How to print?**
+- **There are 1000 lines in a file and we want to print 100 lines where we find a specified word. How to print?**
    - You can use the **`grep`** command in Linux:
      ```bash
      grep -m 100 'specified_word' filename
      ```
      This command will stop after finding the first 100 lines that contain the specified word.
 
-### 2. **Can we use the output of one command as the input of another command?**
+- **Can we use the output of one command as the input of another command?**
    - **Yes**, in Linux, you can use pipes (`|`) to pass the output of one command as the input to another command. For example:
      ```bash
      ls | grep '.php'
      ```
 
-### 3. **How to get the server time using PHP and Linux command?**
+- **How to get the server time using PHP and Linux command?**
    - **PHP**:
      ```php
      echo date('Y-m-d H:i:s');
@@ -20,7 +20,7 @@
      ```bash
      date
      ```
-### 14. **How to check if a port is enabled?**
+- **How to check if a port is enabled?**
    - You can use **`netstat`** or **`lsof`** in Linux to check for open ports:
      ```bash
      netstat -tuln | grep :port_number
@@ -42,7 +42,7 @@
      nmap -p <port> <hostname>
      ```
 
-### 15. **How to check if a process is running and how to kill it?**
+- **How to check if a process is running and how to kill it?**
    - To check running processes, use:
      ```bash
      ps aux | grep process_name
@@ -56,10 +56,9 @@
      how to write into the file without opening it
 
 
-### 16. What is use awk cmd?
-### 17. Without opening the file can we know the count the number of lines in the file?
-### 18. How to jump middle of the file in VIM?
-### 19. How to jump end of the file in vim?
-### 19. How to save file without :wq cmd?
-### 20. How to edit or replace or append the data into the file without open it.
-###
+- **What is use awk cmd?**
+- **Without opening the file can we know the count the number of lines in the file?**
+- **How to jump middle of the file in VIM?**
+- **How to jump end of the file in vim?**
+- **How to save file without :wq cmd?**
+- **How to edit or replace or append the data into the file without open it.**

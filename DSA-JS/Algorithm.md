@@ -1,0 +1,5 @@
+- [dijkstra in php](https://github.com/oscarpascualbakker/dijkstra)
+- [PHP BitArray](https://github.com/oscarpascualbakker/bit-array?tab=readme-ov-file)
+- [Priority Queue in PHP](https://github.com/oscarpascualbakker/priority-queue)
+- [Queue in PHP](https://github.com/oscarpascualbakker/queue)
+- [Stack in php](https://github.com/oscarpascualbakker/stack)
