@@ -29,6 +29,7 @@
 - [Safe Assignment Operator](https://medium.com/@shahbishwa21/introduction-to-the-safe-assignment-operator-in-javascript-ddc35e87d37c)
 - [What is shadow dom?](https://youtu.be/7Tok22qxPzQ?si=gsCPyuUGqeYAcYy7)
 - [custom-elements-shadow-dom](https://github.com/msrajawat298/custom-elements-shadow-dom)
+- [microtasks queue](https://youtu.be/zyTfNKMY0VM?si=RRofROy_N7XU1BuG)
 
 ## [Design Patterns in js]
 
@@ -48,3 +49,9 @@
 - [Build React.js From Scratch](https://youtu.be/zx6GRScq93U?si=Sy_CGUKuAb5fZvUB)
 - [Building an Unblockable Web Scraper with Proxies! | Node.js](https://youtu.be/oF71O9urS14?si=sDLTOR6Rencgc88y)
 - [Javascript Core Concepts](https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37)
+
+
+
+
+what is reversengineering how to apply it ?
+interview question on it.

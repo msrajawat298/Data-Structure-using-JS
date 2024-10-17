@@ -1,3 +1,4 @@
+### What is functional and non-functional requirement?
 ### [Why radis is fast](https://www.youtube.com/shorts/x8lcdDbKZto)
 ### Why http is stateless & there pros and cons?
     HTTP (Hypertext Transfer Protocol) is considered stateless because each request from a client to a server is treated as an independent transaction that is unrelated to any previous request. This means that the server does not retain any information about previous requests made by the client.

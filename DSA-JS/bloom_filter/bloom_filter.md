@@ -12,6 +12,8 @@
 - If all positions are set to 1, then either the element is in the set or the bits have been set to 1 during the insertion of other elements, resulting in a false positive.
 - It is not possible to remove elements in a simple Bloom filter, and there is no way to distinguish between a legitimate positive and a false positive. 
 - More advanced techniques can solve this problem.
+- Bloom filter is good for mapping not for store something.
+- For example you are creating a short url system. For that you can use mongoose db for store the data but searching the millions of records you can use bloom filter.
 
 ![alt text](image.png)
 
