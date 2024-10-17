@@ -25,7 +25,10 @@
 - [Events in Javascript](https://youtu.be/_ALUMTa8BAE?si=sqYEVKhJ5iAVJNkK)
 - [You don't know array in javascript | PACKED vs HOLEY | JSVU | V8-debug](https://youtu.be/ZRS485LxX0s?si=YVECC-gZdBM-Ptkv)
 - [fetch](https://youtu.be/Rive84an6Lc?si=aOPvLCR9qftit1Kf)
-
+- [Safe Assignment Operator/ Why You Don't Need Try/Catch Anymore](https://youtu.be/gDGHUxlUCI8?si=6X6xgoP5YDN91tbi)
+- [Safe Assignment Operator](https://medium.com/@shahbishwa21/introduction-to-the-safe-assignment-operator-in-javascript-ddc35e87d37c)
+- [What is shadow dom?](https://youtu.be/7Tok22qxPzQ?si=gsCPyuUGqeYAcYy7)
+- [custom-elements-shadow-dom](https://github.com/msrajawat298/custom-elements-shadow-dom)
 
 ## [Design Patterns in js]
 
