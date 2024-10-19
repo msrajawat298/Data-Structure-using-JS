@@ -1,0 +1,7 @@
+- [FinTech Mavericks](https://www.youtube.com/playlist?list=PL41A5v6-TZSjbzYxs6ACQzuaA-tBarOSJ)
+    - [Embedded FinTech](https://youtu.be/CSieeERzH18?si=KlpWB3kD-6IOdq69)
+    - [Invisible Payments](https://youtu.be/ihK-BQkyxxM?si=MxBxnzyfJH6IV-Tb) 
+    - FastTag, Wifi card, NFC is example of Invisible Payments, E-nach, Pay later, Payment by face or fingerprint.
+- [API Banking](https://www.youtube.com/playlist?list=PL41A5v6-TZSj4I4YyAaqyJulQMFOzzGUn)
+- [Virtual Accounts](https://youtu.be/eNFiciPKtHM?si=xEgm-J50SxzkY7u1)
+- [#In120Seconds](https://www.youtube.com/playlist?list=PL41A5v6-TZSjgVOa_7tmNijarWlLdwTzv)

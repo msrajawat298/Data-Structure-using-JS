@@ -385,5 +385,11 @@ Currying is a functional programming technique in JavaScript where a function is
 ### What is callback function?
 ### pros and cons of using promises?
 ### what is the use of async and await?
-
-
+### What is prop drilling?
+### What is API gateway?
+### What is Authorization & Automation
+### What is interface in typescript?
+### What is MVW?
+### What is route Protection?
+### What is CORS?
+### What is Prototype in js?
