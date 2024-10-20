@@ -394,24 +394,6 @@ Currying is a functional programming technique in JavaScript where a function is
 ### What is CORS?
 ### What is Prototype in js?
 ### what is micro task query in js ?
-
-
-Window Functions vs. Joins
-Window functions and joins serve different purposes in SQL, and whether one is better than the other depends on the specific use case. Here's a brief comparison:
-
-Window Functions
-Window functions perform calculations across a set of table rows that are somehow related to the current row. They do not cause rows to be grouped into a single output row, which means they can provide more granular insights without collapsing the result set.
-
-Example Use Cases:
-Ranking: Assigning ranks to rows within a partition.
-Running Totals: Calculating cumulative sums or averages.
-Moving Averages: Calculating averages over a sliding window of rows.
-
-
-Joins
-Joins combine rows from two or more tables based on a related column between them. They are used to retrieve data from multiple tables and are essential for relational database operations.
-
-Example Use Cases:
-Combining Data: Merging data from different tables to create a comprehensive dataset.
-Filtering: Selecting rows that meet certain criteria across multiple tables.
-Aggregation: Summarizing data from multiple tables.
+### What is Memoization in Javascript?
+### D/f b/w Memoization and cache in Javascript?
+### How we decide when to use Memoization or cache or not required Memoization?
