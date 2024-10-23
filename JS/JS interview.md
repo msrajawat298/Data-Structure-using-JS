@@ -91,3 +91,62 @@ x
 
 Batch Processing Large Arrays using Generators
 What are some common use cases for JavaScript generators?
+
+
+
+
+
+
+Given a multi-dimensional array arr and a depth n, return a flattened version of that array.
+
+function flattenArray(arr) {
+    let result = [];
+    
+    arr.forEach(item => {
+        if (Array.isArray(item)) {
+            // Recursively flatten the nested array
+            result = result.concat(flattenArray(item));
+        } else {
+            // If it's not an array, add the item to the result
+            result.push(item);
+        }
+    });
+    
+    return result;
+}
+
+let arr = [1, 2, 3, [4, 5], [6, 7, [8, 19]], 101, [11], 12];
+let flattenedArray = flattenArray(arr);
+
+console.log(flattenedArray);
+
+
+Is anagram?
+
+- Can you give me end to end arcticture or HLD or current project or amzone e-commerce  ?
+- What is serverless?
+- create a React component that have button on click it will increase the number
+- what is lazy loading?
+- how to optimize the react application?
+- What is Specificity in css?
+- what is accessability?
+
+console.log1;
+setTimeout(0 => console.log(2), 0);
+console.10g(3) *
+
+
+Q-
+x.y.z
+^X.y.z
+~X.y.z
+
+x.y.z: A specific version.
+^x.y.z: Allows updates to minor and patch versions, but not major versions.
+~x.y.z: Allows updates to patch versions, but not minor or major versions.
+
+what is d/f between settimeout vs promises in term of event loop?
+what is SDLC and what is stages of SDLC and how do you followed in your projects?
+How to do you maintain the application security?
+How to write unit test case in  react?
+What is middleware and how to write it in nodejs?
