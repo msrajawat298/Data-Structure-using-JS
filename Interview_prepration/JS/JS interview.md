@@ -362,8 +362,11 @@ Currying is a functional programming technique in JavaScript where a function is
 
   postRequest('/api/data')({ key: 'value' }).then(response => response.json()).then(data => console.log(data));
   putRequest('/api/data/1')({ key: 'newValue' }).then(response => response.json()).then(data => console.log(data));
-```
-### Summary
-- Currying: Transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
-- Benefits: Enhances reusability, function composition, and readability.
-- Usage: Useful in scenarios like event handling, configuration settings, and creating partially applied functions.
+  ```
+#### Summary
+  - Currying: Transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
+  - Benefits: Enhances reusability, function composition, and readability.
+  - Usage: Useful in scenarios like event handling, configuration settings, and creating partially applied functions.
+
+### What is JWT token?
+### Difference between packages and libraries and framework?
