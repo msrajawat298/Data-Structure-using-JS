@@ -4,6 +4,7 @@
      2. **Level 1**: Resources are introduced, each with a unique URI.
      3. **Level 2**: HTTP methods (GET, POST, PUT, DELETE) are used properly.
      4. **Level 3**: Hypermedia as the Engine of Application State (HATEOAS) is implemented.
+     5. [Click to watch the video](https://youtu.be/IIB-WMpETls?si=VkoqSrP4UpT01j4e)
 
 
 ### 2. **Difference between REST and SOAP?**
@@ -42,3 +43,46 @@
 - Bookmarking and Sharing: URLs with GET parameters can be bookmarked and shared easily. POST data is not included in the URL.
 - Idempotency: GET requests are idempotent, making them safer for repeated requests (e.g., refreshing a page). POST requests can have side effects and are not idempotent.
 - Standards and Conventions: Using the correct HTTP method for the intended action adheres to web standards and conventions, making APIs more predictable and easier to understand.
+
+
+### REST (Representational State Transfer)
+- REST is an architectural style for designing networked applications. 
+- It relies on a stateless, client-server, cacheable communications protocol, typically HTTP. - RESTful systems are characterized by how they are stateless and separate the concerns of client and server.
+
+#### Key Principles of REST
+- Stateless: 
+    - Each request from a client to a server must contain all the information needed to understand and process the request. 
+    - The server does not store any state about the client session.
+- Client-Server Architecture: 
+    - The client and server are separate entities that interact through a standardized interface. 
+    - This separation allows for independent evolution of the client and server.
+- Cacheable: 
+    - Responses must define themselves as cacheable or not to prevent clients from reusing stale or inappropriate data.
+- Uniform Interface: 
+    - A consistent interface between clients and servers simplifies and decouples the architecture. 
+    - This is typically achieved through standard HTTP methods (GET, POST, PUT, DELETE, etc.).
+- Layered System: 
+    - A client cannot ordinarily tell whether it is connected directly to the end server or to an intermediary along the way. 
+    - This can improve scalability and manageability.
+- Code on Demand (Optional): 
+    - Servers can temporarily extend or customize the functionality of a client by transferring executable code.
+
+### What is Restful APi ?
+- RESTful APIs is an interface between two or more computer systems to exchange information securely over the Internet.
+- API is a software architectural pattern which gives you a certain set of conditions or rules or protocols on how an API should work. 
+- API developers follow this architecture and design their APIs.
+- When Web services implement this REST architectural design. 
+- This is known as RESTful web services, and when APIs follow REST architecture, these are known as REST APIs.
+- A RESTful API is an API that adheres to the principles of REST. 
+- It allows interaction with RESTful web services using standard HTTP methods and typically returns data in formats like JSON or XML.
+
+#### Key Characteristics of RESTful APIs
+- Resources: Everything is considered a resource, identified by a URI (Uniform Resource Identifier).
+- HTTP Methods: Standard methods are used to perform operations on resources.
+- GET: Retrieve a resource.
+- POST: Create a new resource.
+- PUT: Update an existing resource.
+- DELETE: Delete a resource.
+- Stateless Operations: Each request from the client to the server must contain all the information needed to understand and process the request.
+- Representation: Resources are represented in a format like JSON or XML.
+- Hypermedia as the Engine of Application State (HATEOAS): Clients interact with the application entirely through hypermedia provided dynamically by application servers.

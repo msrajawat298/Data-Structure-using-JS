@@ -1,9 +1,9 @@
-```markdown
 # JavaScript Concepts and Examples
 
 ## 1. Types of Scopes in JavaScript
 ### File Scope:
-In JavaScript, file scope refers to the scope of variables and functions within a single file. This concept is particularly relevant in the context of modules, where each file can be treated as a separate module with its own scope.
+- In JavaScript, file scope refers to the scope of variables and functions within a single file. 
+- This concept is particularly relevant in the context of modules, where each file can be treated as a separate module with its own scope.
 
 #### Key Points:
 - **Global Variables in Non-Module Files**: In non-module files (i.e., files not using ES6 modules), variables declared with `var` at the top level are added to the global scope.
@@ -49,7 +49,7 @@ a.x(); // `this` refers to the surrounding lexical scope (global object in non-s
 ### Example with Regular Function:
 ```js
 var a = { 'x': function() { console.log(this) } };
-a.x(); // `this` refers to the object `a`.
+a.x(); // `this` refers to the object `a` in a node js and window object in case of js. 
 ```
 
 ## 4. Closures in JavaScript
@@ -154,27 +154,10 @@ function isAnagram(str1, str2) {
 }
 ```
 
-## 11. React Example - Button Click to Increase Number
-```js
-import React, { useState } from 'react';
-
-function Counter() {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <p>{count}</p>
-      <button onClick={() => setCount(count + 1)}>Increase</button>
-    </div>
-  );
-}
-
-export default Counter;
-```
-
-## 12. SDLC (Software Development Life Cycle)
+## 11. SDLC (Software Development Life Cycle)
 The SDLC consists of various stages like Planning, Design, Development, Testing, Deployment, and Maintenance. It provides a structured approach to software development.
 
-## 13. Middleware in Node.js
+## 12. Middleware in Node.js
 A **middleware** is a function that has access to the request and response objects and can modify them or end the response.
 
 ### Example:
@@ -185,7 +168,7 @@ function logger(req, res, next) {
 }
 ```
 
-## 14. Function Binding in JavaScript
+## 13. Function Binding in JavaScript
 The `bind()` method allows you to permanently set the value of `this` for a function.
 
 ### Example:
@@ -203,10 +186,118 @@ const person2 = {
 const greet = person.greet.bind(person2);
 greet(); // Output: Hello, my name is Mayank
 ```
-```
 
-How many iterator in js?
-d/f b/w foreach and map?
-Pure component and component (in term of class and function)
-react life cycle method?
-ES6 features what have you used?
+### 14. Hoisting
+  **Hoisting** refers to the behavior in JavaScript where variable declarations (not initializations) are moved to the top of their scope before code execution. This allows variables to be used before they are declared.
+
+### 1. **`var` Hoisting**:
+   - Variables declared with `var` are **hoisted** to the top of their scope (function or global scope).
+   - The declaration is hoisted, but the initialization stays in place.
+   - When a `var` variable is used before initialization, its value is `undefined` (since only the declaration is hoisted).
+
+   Example:
+   ```js
+   console.log(x);  // Output: undefined
+   var x = 5;       // Declaration hoisted to the top, but initialization happens here.
+   ```
+
+### 2. **`let` and `const` Hoisting**:
+   - Variables declared with `let` and `const` are also hoisted, but they are **not initialized** during hoisting. Instead, they enter the **"temporal dead zone" (TDZ)** until the declaration is encountered.
+   - If you try to access a `let` or `const` variable before its declaration, JavaScript will throw a **ReferenceError**.
+
+   Example (`let`):
+   ```js
+   console.log(y);  // ReferenceError: Cannot access 'y' before initialization
+   let y = 5;
+   ```
+
+   Example (`const`):
+   ```js
+   console.log(z);  // ReferenceError: Cannot access 'z' before initialization
+   const z = 10;
+   ```
+
+### 15. **Difference Between `var`, `let`, and `const` in Hoisting**:
+
+| Feature                      | `var`                                       | `let`                              | `const`                            |
+|------------------------------|---------------------------------------------|------------------------------------|------------------------------------|
+| **Scope**                     | Function scope (or global if outside).      | Block scope.                       | Block scope.                       |
+| **Hoisting**                  | Hoisted and initialized with `undefined`.   | Hoisted but uninitialized (TDZ).   | Hoisted but uninitialized (TDZ).   |
+| **Re-declaration**            | Allowed within the same scope.              | Not allowed in the same scope.     | Not allowed in the same scope.     |
+| **Re-assignment**             | Allowed.                                   | Allowed.                           | Not allowed (must be initialized). |
+
+### 16. **How many iterators are in JavaScript?**
+
+JavaScript has several iterators, some of the most commonly used are:
+
+- **forEach**: Executes a provided function once for each array element.
+- **map**: Returns a new array by applying a function to each element of an array.
+- **filter**: Creates a new array with all elements that pass a test implemented by the provided function.
+- **reduce**: Executes a reducer function on each element, resulting in a single output value.
+- **some**: Tests whether at least one element in the array passes the test.
+- **every**: Tests whether all elements in the array pass the test.
+- **find**: Returns the value of the first element that satisfies the condition.
+- **findIndex**: Returns the index of the first element that satisfies the condition.
+- **entries**: Returns a new Array Iterator object that contains key/value pairs for each index.
+- **keys**: Returns a new Array Iterator that contains the keys for each index.
+- **values**: Returns a new Array Iterator that contains the values for each index.
+
+### 17. **Difference between `forEach` and `map`?**
+
+| Feature              | `forEach`                                  | `map`                                      |
+|----------------------|--------------------------------------------|--------------------------------------------|
+| **Return Value**      | `undefined`, doesn’t return a new array.   | Returns a new array.                       |
+| **Use Case**          | Used for side effects like logging, mutations. | Used when you want to transform each element. |
+| **Chaining**          | Cannot be chained since it returns `undefined`. | Can be chained with other array methods.   |
+| **Performance**       | Generally, slightly faster.                | Slightly slower due to creating a new array. |
+| **Modification**      | Directly modifies the original array (if intended). | Doesn’t modify the original array.         |
+
+### 18. **ES6 Features You’ve Used**
+
+Some commonly used ES6 features:
+- **Arrow Functions**: Cleaner syntax for functions.
+  ```js
+  const add = (a, b) => a + b;
+  ```
+  
+- **Template Literals**: Embed expressions inside strings.
+  ```js
+  const name = 'John';
+  console.log(`Hello, ${name}`);
+  ```
+
+- **Destructuring**: Easily extract values from arrays/objects.
+  ```js
+  const { name, age } = person;
+  const [first, second] = array;
+  ```
+
+- **Spread/Rest Operators**: Expanding or combining arrays/objects.
+  ```js
+  const combined = { ...obj1, ...obj2 };
+  const newArray = [...arr1, ...arr2];
+  ```
+
+- **Classes**: ES6 syntax for object-oriented programming.
+  ```js
+  class Person {
+    constructor(name) {
+      this.name = name;
+    }
+  }
+  ```
+
+- **Modules**: Import/export functionality between files.
+  ```js
+  import { moduleName } from './file';
+  export default function() { ... };
+  ```
+
+- **Promise**: For handling asynchronous operations.
+  ```js
+  const promise = new Promise((resolve, reject) => {
+    resolve("Success");
+  });
+  ```
+
+- **let/const**: Block-scoped variable declarations.
