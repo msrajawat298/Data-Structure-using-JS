@@ -23,3 +23,8 @@ Output : [1,2]
     Example input  =   [1,1,2,3,4,4,4,4,5,5,5,5,5,6,6,6,6,6]
     Example output = [1,2,3,4,5,6,0,0,0,0,0,0,0,0,0,0,0,0]
 
+### Print prime numbers 
+### Design a Digital Clock in HH: MM: SS format in react.
+    - Live clock, that means seconds, minutes and hours are updating as the clock.
+    - The text in the clock text gets printed in the center of the screen, horizontally and vertically.
+    - Whole Background needs to in Black color, and Text needs to be in Green color.

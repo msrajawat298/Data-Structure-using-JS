@@ -106,3 +106,37 @@ Graph::
 https://www.youtube.com/watch?v=5JGiZnr6B5w&list=PLpIkg8OmuX-LZB9jYzbbZchk277H5CbdY&pp=iAQB
 
 https://www.youtube.com/watch?v=rTZdxOlHwk0&list=PLpIkg8OmuX-K3Lo6IqP65xUAZq_YNkX3c&index=4
+
+
+
+
+### **Summary of Data Structures in JavaScript:**
+
+| **Data Structure** | **Native Support** | **Implementation in JS**         |
+|--------------------|--------------------|----------------------------------|
+| Stack              | No                 | Use `Array.push()` and `Array.pop()` |
+| Queue              | No                 | Use `Array.push()` and `Array.shift()` |
+| Priority Queue     | No                 | Custom implementation with an array or heap |
+| Linked List        | No                 | Custom implementation using classes/objects |
+| Set                | Yes                | `Set`                            |
+| Map                | Yes                | `Map`                            |
+| Heap (Min/Max)     | No                 | Custom implementation            |
+| Graph              | No                 | Custom implementation using adjacency list |
+
+
+### **Summary of SPL Data Structures in php:**
+
+| **Data Structure**       | **SPL Class**          |
+|--------------------------|------------------------|
+| Stack                    | `SplStack`             |
+| Queue                    | `SplQueue`             |
+| Priority Queue           | `SplPriorityQueue`     |
+| Doubly Linked List       | `SplDoublyLinkedList`  |
+| Fixed-size Array         | `SplFixedArray`        |
+| Object Storage           | `SplObjectStorage`     |
+| Min-Heap                 | `SplMinHeap`           |
+| Max-Heap                 | `SplMaxHeap`           |
+| Heap (abstract)          | `SplHeap`              |
+| File Handling            | `SplFileObject`        |
+| Observer Pattern         | `SplObserver` / `SplSubject` |
+
