@@ -9,4 +9,5 @@
 - If I am clicking on the some location do you know how it is retrieve the data?
 - Are we using CDN?
 - Which Lib. are we using to render the map such arcgis sdk or leaflet?
-
+- how are we storing map in our db?
+- Geo Hashing?

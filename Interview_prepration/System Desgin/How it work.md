@@ -15,7 +15,11 @@
 ## Logistics 
 ## Healthcare
 ## Payroll
-## Institute 
+## Institute
+## Planner buddy System design  HLD and LLD.
+    - https://erd.dbdesigner.net/designer/schema/1710694865-untitled?shareable=true
+    - https://excalidraw.com/#json=u7sy3db0KnfERX2sIdb3W,9SCNpnfWvA18wrUWsxmP1A
+    - https://documenter.getpostman.com/view/21993237/2sA3BoaXHM
 
 Prepare these all domain all possible interviews questions.
 Prepare a my introduction video mentioned about the you past experience cover industry domain
