@@ -5,3 +5,4 @@
 - **Latency**
 - **Throughput**
 - **Throttling**
+- **Fault tolerance**

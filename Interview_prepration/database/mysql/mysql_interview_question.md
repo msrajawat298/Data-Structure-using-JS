@@ -21,6 +21,7 @@
 - **How many type of joins in mysql?**
 - **D/f b/w left and right join?**
 - **List of all possible useful window and aggregate function in mysql?**
+- **Union all and union**
 
 ## Reference Link :
 - [SQL indexing best practices | How to make your database FASTER!](https://youtu.be/BIlFTFrEFOI?si=1GpXZYln5MrNKQvS)
