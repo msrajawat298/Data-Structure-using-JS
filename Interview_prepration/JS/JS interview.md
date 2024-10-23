@@ -369,6 +369,10 @@ Currying is a functional programming technique in JavaScript where a function is
   - Usage: Useful in scenarios like event handling, configuration settings, and creating partially applied functions.
 
 ### What is JWT token and d/f part of jwt token?
+  - A JWT (JSON Web Token) is a compact, URL-safe token used for securely transmitting information between parties as a JSON object.
+  - It consists of three parts: Header, Payload, and Signature.
+### Is there any other reason why JWT token is use other that authentication?
+  - Yes, for not maintain the session. for example in distributed System we are using load balancer. If we are using session then load balancer has to check every time to sent the request to that server there first session was created. For Prevent that issue we are using JWT token. JWT token it self containing all the detail that required to handshake again. [Click to learn more](https://www.youtube.com/shorts/4o2AkDC8Z9c)
 ### Difference between packages and libraries and framework?
 ### D/F B/W Promise.All and Promise.Settled?
 ### D/F B/W slice and splice?
@@ -377,7 +381,6 @@ Currying is a functional programming technique in JavaScript where a function is
 ### D/f b/w JS and TS?
 ### What is static typing in TS?
 ### D/f b/w npm and yarn?
-### Is there any other reason why JWT token is use other that authentication?
 ### Why are we using node js while there are php, java, python etc lot's of technologies there?
 ### What is callback function?
 ### pros and cons of using promises?
