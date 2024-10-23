@@ -1,31 +1,31 @@
-***GIS***
-    - Stand for Geographic Information System.
-    - Geographic means Location of any object on the earth, associated with geographic co-ordinates(Latitude/Longitude)
-    - System Includes Hardware, Software and Data
-    - A Geographic Information System is a system designed to capture, store, manipulate, analyse, manage and present Spatial or geographic data.
-        - Query
-        - Analyzing
-        - Modeling
-        - Mapping of data based on location.
-    - GIS IN EVERYDAY LIFE
-        - Mapping: - Google Maps
-        - Accident Analysis and Hot Spot Analysis:- By identifying accident location and also allows better traffic management.
-        - Transportation Planning:- Plan for a new road or rail route.
-        - Urban planning
-        - Disaster Management
-        - Navigation:- Web maps
-        - Natural Resources Management
-        - Banking:- Planning, organizing, and decision making in the banking industry.
-        - Taxation:- for managing property tax.
-        - Telecom Sector and Network Services
-        - Agricultural Applications:- GIS data helps create more efficient farming
-        - techniques as well as analysing soil data.
-        - Surveying (Such as covid, election, population etc.)
-        - Dairy Industry:- for distribution, production, and identifying the location of
-        - shops as well as for planning in the field of dairy farm management and
-        - allows for better decision making.
-        - Forecasting and predicting weather
----
+***GIS (Geographic Information System)***
+
+- Stand for Geographic Information System.
+- Geographic means Location of any object on the earth, associated with geographic co-ordinates(Latitude/Longitude)
+- System Includes Hardware, Software and Data
+- A Geographic Information System is a system designed to capture, store, manipulate, analyse, manage and present Spatial or geographic data.
+    - Query
+    - Analyzing
+    - Modeling
+    - Mapping of data based on location.
+- GIS IN EVERYDAY LIFE
+    - Mapping: - Google Maps
+    - Accident Analysis and Hot Spot Analysis:- By identifying accident location and also allows better traffic management.
+    - Transportation Planning:- Plan for a new road or rail route.
+    - Urban planning
+    - Disaster Management
+    - Navigation:- Web maps
+    - Natural Resources Management
+    - Banking:- Planning, organizing, and decision making in the banking industry.
+    - Taxation:- for managing property tax.
+    - Telecom Sector and Network Services
+    - Agricultural Applications:- GIS data helps create more efficient farming
+    - techniques as well as analysing soil data.
+    - Surveying (Such as covid, election, population etc.)
+    - Dairy Industry:- for distribution, production, and identifying the location of
+    - shops as well as for planning in the field of dairy farm management and
+    - allows for better decision making.
+    - Forecasting and predicting weather
 
 - ***Feature***
     - A Feature in GIS (Geographic Information Systems) is a single spatial object that represents a real-world entity.
