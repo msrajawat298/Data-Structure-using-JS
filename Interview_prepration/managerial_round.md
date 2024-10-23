@@ -3,3 +3,10 @@
 - Have you ever? proposed a feature or enhancement that differ from the original requirement?
 - Another question if you are assigned to a task and you are stuck on that task, or any reason can be A technical or product may be.
 - What is your feedback with this interview session?
+- How to do you entered the first organization?
+- What project it was?
+- What kind of domain you were worked and what technologies?
+- What other skills you are leaned to for you started any preparation for that or how is it?
+- What is you long term aspiration where you want to go in next 5 to 10 years?
+- If someone joined you or your org. who is not having much knowledge in technical side so you want to explain him the complexity of the  particular technology or project, how would you do that in simple way?
+- 

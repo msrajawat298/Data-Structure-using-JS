@@ -372,10 +372,15 @@ Currying is a functional programming technique in JavaScript where a function is
 ### Difference between packages and libraries and framework?
 ### D/F B/W Promise.All and Promise.Settled?
 ### D/F B/W slice and splice?
-### What is Callback?
 ### D/f b/w Call & Apply and bind?
 ### D/f b/w arrow and regular function ?
 ### D/f b/w JS and TS?
 ### What is static typing in TS?
 ### D/f b/w npm and yarn?
+### Is there any other reason why JWT token is use other that authentication?
+### Why are we using node js while there are php, java, python etc lot's of technologies there?
+### What is callback function?
+### pros and cons of using promises?
+### what is the use of async and await?
+
 
