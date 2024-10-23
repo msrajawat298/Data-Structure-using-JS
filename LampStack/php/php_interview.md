@@ -25,3 +25,5 @@
 ### 6. **Can we define multiple indexes in MySQL?**
    - **Yes**, you can define multiple indexes in MySQL. You can create indexes on multiple columns and also create multiple indexes on a single column or across different columns to optimize queries.
 
+### 7. What is Namespace ?
+### 8. Create a two class with the name of transaction that have function with the name of handel  (one will handel the paypal transaction and other razaorpay). Use Transaction class such a way that we will call the handel function it should work for paypal as well as razaorpay without modification into the existing class.
