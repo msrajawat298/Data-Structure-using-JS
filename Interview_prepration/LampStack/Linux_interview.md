@@ -54,3 +54,12 @@
 
 
      how to write into the file without opening it
+
+
+### 16. What is use awk cmd?
+### 17. Without opening the file can we know the count the number of lines in the file?
+### 18. How to jump middle of the file in VIM?
+### 19. How to jump end of the file in vim?
+### 19. How to save file without :wq cmd?
+### 20. How to edit or replace or append the data into the file without open it.
+###
