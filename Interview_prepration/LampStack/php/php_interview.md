@@ -17,7 +17,8 @@
 - **How to implement cache in php?**
 - **What is SRO operator and what is it use?**
 - **What is the use of final keyword?**
-- **Implement the SOLID principle in php.**
+- **What is SOLID principles?**
+- **Implement the SOLID principle in php**
 - **Implement the Singleton Design pattern.**
 - **How many class will you create in you project how will you decided if we take an example of atm machine.**
 - **OPPS core principles?**
