@@ -382,5 +382,5 @@ Currying is a functional programming technique in JavaScript where a function is
 ### What is callback function?
 ### pros and cons of using promises?
 ### what is the use of async and await?
-### [What is shadow dom?](https://youtu.be/7Tok22qxPzQ?si=gsCPyuUGqeYAcYy7)
+
 
