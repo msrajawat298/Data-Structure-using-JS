@@ -35,3 +35,5 @@ For this reason the algorithm has many uses. Since it is a system that responds 
 
 ## Reference link
 - [bloomfilter](https://github.com/oscarpascualbakker/bloomfilter)
+- [What Are Bloom Filters?](https://youtu.be/kfFacplFY4Y?si=by1JHdIcZ_epl0fG)
+- [Bit array]()
