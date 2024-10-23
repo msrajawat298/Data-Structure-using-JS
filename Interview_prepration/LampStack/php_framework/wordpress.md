@@ -1,0 +1,1 @@
+- What design pattern wordpress using ?

@@ -423,3 +423,5 @@ Writing complex SQL queries for geospatial data involves using spatial functions
 - [Learning ArcGIS](https://www.youtube.com/watch?v=sPXmLqqHxVI)
 - [Data for GIS. Spatial data# Non –spatial data# Data structure: vector and raster](https://www.youtube.com/watch?v=E3xAU-SeNA4)
 - [Learn More](https://www.youtube.com/watch?v=hu2wPl6Cr20)
+- [How to render map using js - Leaflet](https://youtu.be/ls_Eue1xUtY?si=NVjDA5VRLQkP6bKi)
+- [How to integrate open street maps in react using leaflet and maptiler | React Leaflet ](https://youtu.be/i9oX1upSKjI?si=0oDsvfEnoIszoFS6)
