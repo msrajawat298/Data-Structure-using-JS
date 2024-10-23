@@ -150,3 +150,37 @@ what is SDLC and what is stages of SDLC and how do you followed in your projects
 How to do you maintain the application security?
 How to write unit test case in  react?
 What is middleware and how to write it in nodejs?
+
+
+Summary
+call(): Calls a function with a specified this value and arguments provided individually.
+apply(): Calls a function with a specified this value and arguments provided as an array.
+bind(): Creates a new function with a specified this value and optional arguments. (it is not removing existing value it is adding some new values. 
+Such as you have create an array but the all the array related function automatically attached to the arr as an prototype).
+another example here is there is object1 and object2 we want to pass some value or want to inheritance obj1 value in the obj2 we can use bind
+
+// JavaScript
+
+const person = {
+  name: 'Charlie',
+  greet() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+};
+const person2 = {
+  name: 'Mayank',
+};
+
+
+const greet = person.greet.bind(person2);
+greet(); // Output: Hello, my name is Charlie
+
+// JavaScript
+
+function multiply(a, b) {
+  return a * b;
+}
+
+const double = multiply.bind(null, 2);
+
+console.log(double(5)); // Output: 10
