@@ -15,6 +15,12 @@
 - **What is DB Transaction?**
 - **What is isolation level in mysql?**
 - **How to fetch the 2nd last max salary ?**
+- **What is aggregate function in mysql?**
+- **D/f b/w where and having clause?**
+- **What is benefits of having clause?**
+- **How many type of joins in mysql?**
+- **D/f b/w left and right join?**
+- **List of all possible useful window and aggregate function in mysql?**
 
 ## Reference Link :
 - [SQL indexing best practices | How to make your database FASTER!](https://youtu.be/BIlFTFrEFOI?si=1GpXZYln5MrNKQvS)
