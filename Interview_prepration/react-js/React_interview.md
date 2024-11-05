@@ -13,7 +13,8 @@
 - [Lazy Loading](https://youtu.be/-L2e1dR1UIE?si=5IQgKKuPV7b9JkLG)
 - [Core Concepts of Redux](https://www.youtube.com/playlist?list=PLp18NAIKHWnuq1ODXRD-3ivVJ3R89A5UL)
 - [React Portal](https://youtu.be/HpHLa-5Wdys?si=aGjMjXP59dGwAFSd)
-- [Error Boundary]()
+- [Error Boundary](https://youtu.be/DNYXgtZBRPE?si=y3UF2G0HxX2dErHA)
+- [React js VIRTUALIZED LIST](https://youtu.be/Yz4eK-4LKXg?si=HAkANz0Y8ASLamzB)
 
 
 
@@ -192,3 +193,8 @@ Cache headers are HTTP headers used to specify how long the browser or intermedi
 - React Fragment
 - Web Workers
 - USETRANSITION HOOK
+- Can you explain what kind of performance issues, we can generally expect in react applications and what can we do about them ?
+- Suppose there are too many layers that you have to show something 10k rows so how would you manage that ? If you are using Pagination but still there will be issue such as lagging due to large data using pagination we have handle the issue but How can we do in frontend side?
+- How are you consuming your api's in you project?
+- Do you use OOPs concept in your programming?
+
