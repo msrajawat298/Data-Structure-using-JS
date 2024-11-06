@@ -26,6 +26,10 @@
 - **What is Database Normalization in SQL?**
 - **How to backup and restore database?**
 - **D/f b/w delete and truncate?**
+- **What is the database engine you are currently using?**
+- **Difference between InnoDB and MyISAM.**
+- **What is MariaDB?**
+- **What is the order of execution in an SQL query?**
 - **Advantages and Disadvantages of Indexes**
    - **Advantages**:
      - Speeds up retrieval operations.
@@ -43,8 +47,6 @@
 - [SQL indexing best practices | How to make your database FASTER!](https://youtu.be/BIlFTFrEFOI?si=1GpXZYln5MrNKQvS)
 - [sqitch](https://sqitch.org/)
 - [Learn more sql](https://www.youtube.com/@techTFQ/playlists)
-
-
 
 
 
