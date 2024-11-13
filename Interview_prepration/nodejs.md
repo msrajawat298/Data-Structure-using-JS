@@ -14,5 +14,8 @@
 ### What is master-slave in Node.js?
 ### What is PM2?
 ### Have you developed a microservice in Node.js?
+### How to do unit testing in node js?
+### How to test api performance ?
+### What is Preflight Requests?
 
 

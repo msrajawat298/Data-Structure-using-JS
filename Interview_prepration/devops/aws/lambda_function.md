@@ -5,3 +5,4 @@
 ### What is the default execution time of a Lambda function?
 ### What are the layers in a Lambda function?
 ### How do you upload code in a Lambda function?
+### What is the use of lambda function when we should use ?

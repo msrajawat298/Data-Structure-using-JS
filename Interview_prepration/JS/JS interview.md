@@ -377,6 +377,43 @@ Currying is a functional programming technique in JavaScript where a function is
 ### D/F B/W Promise.All and Promise.Settled?
 ### D/F B/W slice and splice?
 ### D/f b/w Call & Apply and bind?
+
+```js
+
+//call 
+function greet(greeting, punctuation) {
+  console.log(greeting + ', ' + this.name + punctuation);
+}
+
+const person = { name: 'Alice' };
+
+greet.call(person, 'Hello', '!'); // Output: Hello, Alice!
+
+
+//apply
+
+function greet(greeting, punctuation) {
+  console.log(greeting + ', ' + this.name + punctuation);
+}
+
+const person = { name: 'Alice' };
+
+greet.apply(person, ['Hello', '!']); // Output: Hello, Alice!
+
+
+//bind
+function greet(greeting, punctuation) {
+  console.log(greeting + ', ' + this.name + punctuation);
+}
+
+const person = { name: 'Alice' };
+
+const boundGreet = greet.bind(person, 'Hello');
+boundGreet('!'); // Output: Hello, Alice!
+
+
+```
+
 ### D/f b/w arrow and regular function ?
 ### D/f b/w JS and TS?
 ### What is static typing in TS?
@@ -398,3 +435,6 @@ Currying is a functional programming technique in JavaScript where a function is
 ### D/f b/w Memoization and cache in Javascript?
 ### How we decide when to use Memoization or cache or not required Memoization?
 ### Deep copy vs. shallow copy.
+
+
+

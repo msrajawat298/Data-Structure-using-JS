@@ -17,6 +17,7 @@ Output : [1,2]
     - The text in the clock text gets printed in the center of the screen, horizontally and vertically.
     - Whole Background needs to in Black color, and Text needs to be in Green color.
 
+### Create a two component one parent and one child. In child component Create input text box where user can enter the color name pass this color to parent component and change the background color of the body
 ### Read 3 json files, events.json, users.json, event-user.json
  - event { id, name, country, city, date } (given)
  - user {id, name, country, city} (given)
@@ -49,3 +50,23 @@ Output : [1,2]
 
 - If you had to start a fresh project on your own, how would you approach it? Basically, what things would you choose in your React application? How would you structure it?
 - How do you debug the bug in react js?
+
+
+### What would be the output of the following code?
+```js
+var languages = ['Java', 'php', 'TypeScript'];
+languages.length = 0;
+languages.push('Golang'); 
+console.log(languages);
+```
+
+What would be the output of the following code?
+```ts
+class TuringQueue<T>{
+    private data = [];
+    push = (item: T) => this.data.push(item);
+    pop = (): T = this.data.shift();
+}
+const turingQueue = new TuringQueue<number>();
+turingQueue.push(0) ; turingQueue.push("1"); console.log(turingQueue);
+```

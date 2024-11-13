@@ -16,6 +16,9 @@
 - [Error Boundary](https://youtu.be/DNYXgtZBRPE?si=y3UF2G0HxX2dErHA)
 - [React js VIRTUALIZED LIST](https://youtu.be/Yz4eK-4LKXg?si=HAkANz0Y8ASLamzB)
 
+- Controlled Components are those Components that are controlled by react such using useState.
+- UnControlled Components are those Components that are controlled by DOM such using useRef.
+
 
 
 
