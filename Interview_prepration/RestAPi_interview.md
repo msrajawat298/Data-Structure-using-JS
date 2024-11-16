@@ -1,3 +1,11 @@
+- **What is API?**
+    - **API (Application Programming Interface):** A set of rules and protocols that allows different software applications to communicate with each other.
+    - **Endpoints:** Specific URLs where requests can be made to access resources or perform actions.
+    - **Requests and Responses:** Communication involves sending requests to API endpoints and receiving responses with data or results.
+    - **HTTP Methods:** Common methods include GET, POST, PUT, and DELETE.
+    - **Data Formats:** Standard formats like JSON and XML are used for data exchange.
+    - **Authentication and Authorization:** APIs may require verifying the client's identity and determining their permissions.
+
 - **How many maturity levels are there in REST API?**
    - REST API maturity levels are defined by **Richardson’s Maturity Model**, which includes 4 levels:
      1. **Level 0**: Plain Old XML (POX) or one URI with single method (e.g., `POST`).
@@ -44,7 +52,7 @@
 
 - **REST (Representational State Transfer)**
     - REST is an architectural style for designing networked applications. 
-    - It relies on a stateless, client-server, cacheable communications protocol, typically HTTP. 
+    - It relies on a stateless, client-server, Cacheable communications protocol, typically HTTP. 
     - RESTful systems are characterized by how they are stateless and separate the concerns of client and server.
 
 - **Key Principles of REST**
@@ -55,7 +63,7 @@
         - The client and server are separate entities that interact through a standardized interface. 
         - This separation allows for independent evolution of the client and server.
     - **Cacheable:**
-        - Responses must define themselves as cacheable or not to prevent clients from reusing stale or inappropriate data.
+        - Responses must define themselves as Cacheable or not to prevent clients from reusing stale or inappropriate data.
     - **Uniform Interface:** 
         - A consistent interface between clients and servers simplifies and decouples the architecture. 
         - This is typically achieved through standard HTTP methods (GET, POST, PUT, DELETE, etc.).
@@ -85,16 +93,60 @@
         - Representation: Resources are represented in a format like JSON or XML.
         - Hypermedia as the Engine of Application State (HATEOAS): Clients interact with the application entirely through hypermedia provided dynamically by application servers.
 
-## What is the d/f b/w stateless and stateful and there pros & cons.
-## Is Http stateless and why?
-## What is use of preflight request?
-## if I am hit one url on browser and it is rendering some html pages how it is happening ?
-## How osi layer come in the picture?
-## Let you have loged in facebook how server knows the user already authenticate so not asking again login credential.
-## Can we change the port number in apache like in listen 80 or 443 can we alter this is possible?
+- **What is the d/f b/w stateless and stateful and there pros & cons.**
+- **Is Http stateless and why?**
+- **What is use of preflight request?**
+- **If I am hit one url on browser and it is rendering some html pages how it is happening ?**
+- **How OSI layer come in the picture? APSTN-DP**
+    - Physical layer 
+    - Data link layer
+    - Network layer
+    - Transport Layer
+    - Session Layer
+    - Presentation Layer
+    - Application Layer
 
+- **Let you have logged in facebook how server knows the user already authenticate so not asking again login credential.**
+    - **Sessions:** Server-side storage of user data to persist state across requests.
+    - **Cookies:** Client-side storage of session ID, sent with every HTTP request.
+    - **Login Process:**
+        - User logs in and server creates a session.
+        - Server sends session ID as a cookie to the client.
+        - Browser includes session ID cookie in subsequent requests.
+        - Server validates session ID to verify authentication.
+- **Can we change the port number in apache like in listen 80 or 443 can we alter this is possible?**
+- Yes, it is possible to change the port number in Apache by modifying the Listen directive in the configuration files.
+    Steps:
+        - Open the Apache configuration file.
+        - Modify the Listen directive to the new port number.
+        - Update the virtual host configuration if necessary.
+        - Restart the Apache service to apply the changes.
+
+- **OAuth stand for open authorization**
+    - **OAuth 2.** 0 provides a secure and standardized way to handle authentication and authorization, making it easier to integrate third-party services and protect user data.
+    - **OAuth 2.0:** An open standard for access delegation, allowing third-party services to access user information without exposing credentials.
+    - **Key Concepts:** Resource Owner, Client, Authorization Server, Resource Server.
+    - **Grant Types:** Authorization Code, Implicit, Resource Owner Password Credentials, Client Credentials.
+    - **Example Flow:** User Authorization, Authorization Code, Access Token, Access Resource.
+
+- **What is payload in the context of a REST API?**
+- **What is the difference between PUT, POST, and PATCH?**
+- **What is a REST message and the core components of an HTTP request and an HTTP response?**
+    - **REST Message:** Communication between a client and a server in a RESTful architecture, consisting of HTTP requests and responses.
+    - **HTTP Request:** Sent by the client to perform an operation on a resource, includes a request line, headers, and an optional body.
+    - **HTTP Response:** Sent by the server with the result of the operation, includes a status line, headers, and an optional body.
+    - **Components:**
+        - **Request Line:** HTTP method, URI, HTTP version.
+        - **Headers:** Additional information about the request or response.
+        - **Body:** Data sent to or received from the server.
+- **What is an idempotent method and why are they important?**
+- **What's the difference between idempotent and safe HTTP methods?**
+- **Explain caching in a RESTful architecture?**
+- **Best practices in developing a RESTful web service**
 
 
 ## Reference Link
 - [Best practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 - [Node js api best practices](https://github.com/msrajawat298/PlannerBuddy-api)
+- [What is Rest API](https://youtube.com/shorts/JwtkJDUzWis?si=KLxOtrwOPI1yd-za)
+- [REST API Interview Questions (Advanced Level)](https://youtu.be/n2JQFFFEd0M?si=u0yqhzEzY0IAWuS5)

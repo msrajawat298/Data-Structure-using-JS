@@ -169,7 +169,9 @@ function logger(req, res, next) {
 ```
 
 ## 13. Function Binding in JavaScript
-The `bind()` method allows you to permanently set the value of `this` for a function.
+  - The `bind()` method allows you to permanently set the value of `this` for a function.
+  - It create the copy of the function with all values.
+  - While call and apply is called immediately.
 
 ### Example:
 ```js
@@ -430,11 +432,181 @@ boundGreet('!'); // Output: Hello, Alice!
 ### What is route Protection?
 ### What is CORS?
 ### What is Prototype in js?
+  - In JavaScript, a prototype is an object from which other objects inherit properties and methods. It is a fundamental concept that allows for inheritance and the sharing of properties and methods among objects.
+  - **Key Points**
+    - Prototype Property: Every JavaScript function has a prototype property, which is an object. This property is used to build the [[Prototype]] of instances created by the constructor function.
+    - Prototype Chain: When accessing a property or method on an object, JavaScript first looks at the object itself. If it doesn't find the property or method, it looks at the object's prototype, and so on, up the prototype chain.
+    - Inheritance: Prototypes allow objects to inherit properties and methods from other objects.
 ### what is micro task query in js ?
-### What is Memoization in Javascript?
+  - **Microtasks:** Tasks that have higher priority than macrotasks and are executed immediately after the currently executing script.
+  - **Common Microtasks:** Promises, MutationObserver callbacks, and queueMicrotask.
+  - **Execution Order:** Microtasks are executed before any macrotasks, ensuring that they run as soon as possible after the current script.
 ### D/f b/w Memoization and cache in Javascript?
 ### How we decide when to use Memoization or cache or not required Memoization?
+  - **Use Memoization:**
+    - For expensive computations.
+    - With pure functions.
+    - When functions are called frequently with the same inputs.
+  - **Use Caching:**
+    - For data fetching from external sources.
+    - With immutable or infrequently changing data.
+    - To address performance bottlenecks.
+  - **Avoid Memoization or Caching:**
+    **For low-cost computations.**
+    **With highly dynamic data.**
+    **When memory resources are constrained.**
 ### Deep copy vs. shallow copy.
+  - In JavaScript, copying objects or arrays can be done in two ways: shallow copy and deep copy. Understanding the difference between these two methods is crucial for managing data structures effectively.
+  - **Shallow Copy**
+    - A shallow copy of an object or array copies the top-level properties, but nested objects or arrays are not copied. Instead, references to the nested objects are copied, meaning changes to the nested objects will affect both the original and the copied object.
+    ```js
+      const original = {
+    name: 'Alice',
+    address: {
+      city: 'Wonderland'
+    }
+  };
+
+  // Shallow copy using Object.assign
+  const shallowCopy = Object.assign({}, original);
+
+  // Modify the nested object
+  shallowCopy.address.city = 'New Wonderland';
+
+  console.log(original.address.city); // Output: 'New Wonderland'
+  console.log(shallowCopy.address.city); // Output: 'New Wonderland'
+  ```
+  **Deep Copy**
+    - A deep copy of an object or array copies all levels of the object or array, including nested objects or arrays. This means that changes to the nested objects in the copied object will not affect the original object.
+    ```js
+      const original = {
+        name: 'Alice',
+        address: {
+          city: 'Wonderland'
+        }
+      };
+
+      // Deep copy using JSON methods
+      const deepCopy = JSON.parse(JSON.stringify(original));
+
+      // Modify the nested object
+      deepCopy.address.city = 'New Wonderland';
+
+      console.log(original.address.city); // Output: 'Wonderland'
+      console.log(deepCopy.address.city); // Output: 'New Wonderland'
+    ```
+
+### What is null and undefined and what d/f in js?
+  - In JavaScript, null and undefined are two distinct types that represent the absence of a value, but they are used in different contexts and have  different meanings.
+  - **undefined**
+    - **Type:** undefined is a primitive type.
+    - **Meaning:** It indicates that a variable has been declared but has not yet been assigned a value.
+    - **Default Value:** Variables that are declared but not initialized are automatically assigned the value undefined.
+  - **null**
+    - **Type:** null is also a primitive type, but it is considered an object type in JavaScript.
+    - **Meaning:** It explicitly indicates the absence of any object value. It is often used to signify that a variable should have no value.
+    - **Assignment:** null must be explicitly assigned to a variable.
+  - **Differences**
+    - **Type:**
+      - undefined is of type undefined.
+      - null is of type object.
+    - **Usage:**
+      - undefined is used when a variable has been declared but not yet assigned a value.
+      - null is used to explicitly indicate that a variable should have no value.
+    - **Default Values:**
+      - Variables that are declared but not initialized are undefined.
+      - null must be explicitly assigned.
+    - **Equality:**
+      - undefined == null is true because they are considered equal in non-strict comparison.
+      - undefined === null is false because they are of different types.
+
+---
+
+### What is immediate invoked function?
+  - An Immediately Invoked Function Expression (IIFE) is a function in JavaScript that is executed immediately after it is defined. It is a common pattern used to create a new scope and avoid polluting the global namespace.
+  **Use Cases**
+    - **Avoiding Global Variables:** IIFEs create a new scope, which helps in avoiding global variable pollution.
+    - **Encapsulation:** Encapsulate code to create private variables and functions.
+    - **Initialization:** Execute initialization code that only needs to run once.
+### == and  ==== d/f ?
+### Does hoisting work with all the variables, and Why?
+### What is Event Loop?
+  - The Event Loop is a fundamental concept in JavaScript that allows for asynchronous programming. 
+  - It is responsible for handling and executing multiple pieces of code, such as callbacks, promises, and events, in a non-blocking manner.
+  - **How It Works**
+    - **Call Stack:** This is where the code gets executed. Functions are pushed onto the stack when called and popped off when they return.
+    - **Web APIs:** These are browser-provided APIs (like setTimeout, DOM events, fetch) that handle asynchronous operations.
+    - **Callback Queue:** When an asynchronous operation completes, its callback is placed in the callback queue.
+    - **Microtask Queue:** This queue holds microtasks such as promise callbacks. Microtasks have higher priority than macrotasks (callbacks from the callback queue).
+    - **Event Loop:** The Event Loop continuously checks the call stack to see if it's empty. If it is, it pushes the first callback from the microtask queue (if any) or the callback queue onto the call stack for execution.
+
+### What is the precedence in Event Loop? ( between Promise() and setTimeout() )?
+  - In JavaScript, the Event Loop determines the execution order of code, particularly for asynchronous tasks. Understanding the precedence between Promise and setTimeout involves examining Microtasks and Macrotasks.
+
+  - Key Concepts
+    - Microtasks:
+      - Includes tasks like Promise.then, Promise.catch, Promise.finally, and queueMicrotask.
+      - These tasks are executed immediately after the currently executing synchronous code completes, before moving to the next macrotask.
+    - Macrotasks:
+      - Includes tasks like setTimeout, setInterval, setImmediate (Node.js), and I/O events.
+      - These tasks are executed only after all microtasks in the current event loop iteration have been processed.
+      - Precedence: Promise vs. setTimeout
+      - Promise callbacks (.then, .catch, etc.) are microtasks, so they are executed before setTimeout, which is a macrotask.
+      - Even if a setTimeout is queued with a delay of 0 ms, it will always be executed after the current queue of microtasks.
+```js
+    console.log('Start');
+
+    setTimeout(() => {
+      console.log('setTimeout');
+    }, 0);
+
+    Promise.resolve().then(() => {
+      console.log('Promise');
+    });
+
+    console.log('End');
+
+    //output
+    Start
+    End
+    Promise
+    setTimeout
+  ```
+### What is the Diff. b/ "setTimeout()" & "setInterval()"?
+### What are the ES6 features you have used?
+### Where do you mostly use Rest Operator?
+  - The rest operator (...) in JavaScript is used to represent an indefinite number of arguments as an array. It is commonly used in the following scenarios:
+    - Function Parameters
+    - Array Destructuring
+    - Object Destructuring
+
+### D/f b/w local storage and session storage?
+  - **Local Storage**
+      - **Persistence:** Data stored in localStorage persists even after the browser is closed and reopened.
+      - **Scope:** Data is shared across all tabs and windows with the same origin (protocol, host, and port).
+      - **Capacity:** Typically has a larger storage limit (around 5-10MB per origin).
+      - **Use Case:** Suitable for storing
+    - **Session Storage**
+        - **Persistence:** Data stored in sessionStorage is only available for the duration of the page session. It is cleared when the page session ends (i.e., when the tab or window is closed).
+        - **Scope:** Data is specific to the tab or window where it was created and is not shared across other tabs or windows.
+        - **Capacity:** Typically has a smaller storage limit (around 5MB per origin).
+        - **Use Case:** Suitable for storing data that only needs to be available for the duration of the page session, such as temporary form data or state information.
+
+### What is lexical scope?
+- Lexical scope, also known as static scope, refers to the scope of a variable being determined by its physical location within the source code. In other words, the scope is defined by the structure of the code and the location where variables and functions are declared.
+### What is callback hell in JS?
+  - **Callback Hell:** A situation where multiple nested callbacks make the code difficult to read and maintain.
+  - **Promises:** Provide a more readable way to handle asynchronous operations, avoiding deeply nested callbacks.
+  - **Async/Await:** Allows writing asynchronous code that looks synchronous, further improving readability and maintainability.
+
+### What is Promise in js?
+  - **Promises:** Represent the eventual completion or failure of an asynchronous operation.
+  - **States:** Pending, fulfilled, or rejected.
+  - **Chaining:** Use .then() and .catch() to handle results and errors.
+  - **Avoiding:** Callback Hell: Promises help avoid deeply nested callbacks.
+  - **Async/Await:** Provides a more readable way to work with promises.
+
+
 
 
 

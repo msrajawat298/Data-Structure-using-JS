@@ -70,3 +70,116 @@ class TuringQueue<T>{
 const turingQueue = new TuringQueue<number>();
 turingQueue.push(0) ; turingQueue.push("1"); console.log(turingQueue);
 ```
+
+### Why false? 0.1+0.2===0.3
+### Simple way to remove duplicate values from array.
+### Palindrome
+```js
+function isPalindrome(str) {
+  // Remove non-alphanumeric characters and convert to lowercase
+  const cleanedStr = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+  
+  // Compare the cleaned string with its reverse
+  return cleanedStr === cleanedStr.split('').reverse().join('');
+}
+
+// Examples
+console.log(isPalindrome("A man, a plan, a canal, Panama")); // Output: true
+console.log(isPalindrome("racecar")); // Output: true
+console.log(isPalindrome("hello")); // Output: false
+```
+### two array Equal array check
+```js
+function arraysEqual(arr1, arr2) {
+  // Check if arrays have the same length
+  if (arr1.length !== arr2.length) {
+    return false;
+  }
+
+  // Check if all corresponding elements are equal
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr1[i] !== arr2[i]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+```
+
+### Reverse string
+```js
+function reverseString(str) {
+  let reversedStr = '';
+  
+  // Loop through the string from the end to the beginning
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversedStr += str[i];
+  }
+  
+  return reversedStr;
+}
+```
+### Sum digits until single-digit
+```js
+function sumDigitsUntilSingleDigit(num) {
+  while (num >= 10) {
+    num = sumDigits(num);
+  }
+  return num;
+}
+
+function sumDigits(num) {
+  let sum = 0;
+  while (num > 0) {
+    sum += num % 10;
+    num = Math.floor(num / 10);
+  }
+  return sum;
+}
+
+// Examples
+console.log(sumDigitsUntilSingleDigit(1234)); // Output: 1 (1+2+3+4 = 10 -> 1+0 = 1)
+console.log(sumDigitsUntilSingleDigit(9876)); // Output: 3 (9+8+7+6 = 30 -> 3+0 = 3)
+console.log(sumDigitsUntilSingleDigit(5));    // Output: 5 (already a single digit)
+```
+### Dynamic table data iteration action button
+### HTML storage
+### Geo Location In html
+### Authentication Vs Authorization
+```js
+function* getMultipleValues() {
+  yield 10;
+  yield 20;
+}
+const result = getMultipleValues();
+console.log(result.next()->value);
+console. log(result.next().value);
+console. log(result.next());
+```
+
+### How to fix this function to print in sequence  without let?
+```js
+function x(i){
+    for(var i = 1; i<=10; i++){
+        (function(j){
+            setTimeout(()=> console.log(j), j*1000);
+        })(i);
+        
+    }
+}
+x();
+```
+
+```js
+function x(i){
+    for(var i = 1; i<=10; i++){
+        (function(j){
+            setTimeout(()=> console.log(j), j*1000);
+        })(i);
+        
+    }
+}
+x();
+```
+

@@ -200,4 +200,210 @@ Cache headers are HTTP headers used to specify how long the browser or intermedi
 - Suppose there are too many layers that you have to show something 10k rows so how would you manage that ? If you are using Pagination but still there will be issue such as lagging due to large data using pagination we have handle the issue but How can we do in frontend side?
 - How are you consuming your api's in you project?
 - Do you use OOPs concept in your programming?
+- In which of the following condition, the React.js Lifecycle method static getDerivedSateFromProps(props, state) is called?
+- What is the main difference between React.Component and React.PureComponent?
+    - React.PureComponent implements a shallow comparison of props and state, reducing the need for manual shouldComponentUpdate checks.
 
+### What is Reconciliation in React?
+  - **Reconciliation:** The process by which React updates the DOM to match the virtual DOM.
+  - **Virtual DOM:**  A lightweight copy of the actual DOM maintained in memory.
+  - **Diffing Algorithm:**  Compares the previous and new virtual DOM trees to identify changes.
+  - **Efficient Updates:**  React updates only the parts of the actual DOM that have changed, improving performance.
+  - **Optimizations:** Keys, component type checks, and pure components help optimize the reconciliation process.
+
+
+### What does the < Switch > component do in react-router?
+  - <Switch> Component: Ensures that only one route is rendered at a time by rendering the first matching route.
+  - Order Matters: The order of routes inside the <Switch> determines which route is rendered first.
+  - Fallback Route: A route without a path can be used as a fallback for unmatched routes.
+  - React Router v6: The <Switch> component is replaced by the <Routes> component, which provides similar functionality with an updated API.
+
+
+### What is the entry point of a React Application
+  - **Entry Point:** The entry point of a React application is typically the index.js or index.tsx file in the src directory.
+  - **Importing Modules:** The entry point file imports React, ReactDOM, the root component, and any global styles.
+  - **Rendering the Application:** The ReactDOM.render method is used to render the root component into the DOM element with the ID root.
+  - **HTML File:** The public/index.html file contains the root DOM element where the React application is mounted.
+### What is HOC? Where you have used / written in your project
+  - **Higher-Order Component (HOC):** A function that takes a component and returns a new component with additional props or behavior.
+  - **Reusability:** HOCs allow you to reuse logic across multiple components.
+  - **Props Manipulation:** HOCs can manipulate props, add new props, or wrap the original component with additional behavior.
+  - **Use Cases:** Code reusability, cross-cutting concerns, and enhancing components.
+```js
+import React from 'react';
+import { Redirect } from 'react-router-dom';
+
+// Higher-Order Component for authentication
+function withAuth(WrappedComponent) {
+  return function WithAuth(props) {
+    const isAuthenticated = // logic to check if the user is authenticated
+    if (!isAuthenticated) {
+      return <Redirect to="/login" />;
+    }
+    return <WrappedComponent {...props} />;
+  };
+}
+
+// Example usage
+function Dashboard(props) {
+  return <div>Welcome to the Dashboard</div>;
+}
+
+const DashboardWithAuth = withAuth(Dashboard);
+
+// Usage in a parent component
+function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/login" component={Login} />
+        <Route path="/dashboard" component={DashboardWithAuth} />
+      </Switch>
+    </Router>
+  );
+}
+
+export default App;
+```
+
+### What is React Context API and when to use
+  - **Creating Context:** MyContext is created using createContext(). 
+  - **MyProvider** is a component that uses the Provider to pass down the context value.
+  - **Using Context:** MyComponent uses the useContext hook to access the context value and the function to update it.
+  - **Providing Context:** The App component wraps MyComponent with MyProvider to provide the context value.
+
+5. How do you handle API calls on your React App? Axios..
+6. How will you chain multiple API calls that is depending on the previous request?
+7. How will you optimize a React Application?
+8. What is pure component? How will you implement same on Functional Components?
+9. Explain controlled and uncontrolled components
+10. Redux questions on reducers, actions and state...
+    - **Reducers:** Pure functions that specify how the state changes in response to actions.
+    - **Actions:** Plain objects that describe events or changes in the application.
+    - **State Management:**  The state is stored in a single store, updated by dispatching actions, and processed by reducers.
+    - **Combining Reducers:**  Use combineReducers to combine multiple reducers into a single reducer.
+    - **Middleware:** Extends the store's abilities, enabling custom functionality during action dispatching.
+
+11. How to avoid mutating an array when performing an operation
+12. Explain this keyword with arrow function and normal
+13. Event bubbling
+14. ES6 features you have used
+15. Difference between map, filter and foreach
+16. Deep copy vs Shallow copy
+
+• What is arrow function ?
+• What is redux ?
+• What is currying?
+• What is difference between map and filter ?
+• What is webpack ?
+• What do you prefer functional component or class component ?
+• How would you optimise the code ?
+• What is lazy loading ?
+• What is use Memo hook ?
+• What is difference between let const and var ?
+•What is hoisting?
+• What are life cycle methods ?
+• Can we use hook for class component ?
+• What is clean up function? In useEffect ?
+• Difference between spread and rest ?
+• How to add the elements in array ?
+• What is push, pop, slice and splice and there syntax ?
+• What is generator function?
+• What is callback in JavaScript ?
+• Explain closure
+• Explain call apply and bind
+• How to pass data between component ?
+• How to pass the data from child to parent and from parent to child ?
+• How to uniquely identify the element ? How to remove the duplicate elements in array?
+• Did you do unit testing ?
+• What tool you used for unit testing ?
+• They took snapshot then ended the interview
+- What react virtual dom?
+- What are the features of React?
+- What is significance of keys in react that we use?
+- What are the some performance optimizing that you use like to increasing the knowledge the performance of your application?
+- What is Synthetic event in react?
+- What do you understand reference in react ?
+- Can you explain life cycle in react?
+- What is React JS?
+- Lifecycle methods vs Hooks?
+- What is unidirectional data flow in React JS?
+- What is React memo?
+- What is HOC? Any use case? where you have used?
+- What is Mounting?
+- How to optimize react application? Any example?
+  - Pagination
+  - Infinite scroll
+  - Lazy load
+  - caching
+  - Code spiting
+  - Virtual list
+  - webp images
+
+- How to pass data from child to parent?
+- What are different ways to call APIs in React?
+- What is React Context API?
+- What are new features of React latest version?
+### What is Redux & how it works?
+  - **Redux:** A state management library for JavaScript applications, providing a predictable state container.
+  - **Store:** Holds the entire state of the application.
+  - **Actions:** Plain objects that describe what happened.
+  - **Reducers:** Pure functions that specify how the state changes in response to actions.
+  - **Dispatch:** Method to send actions to the store to change the state.
+  - **Selectors:** Functions to extract specific pieces of state from the store.
+  ```js
+    // actions.js
+    export const increment = (amount) => ({
+      type: 'INCREMENT',
+      payload: amount
+    });
+
+    export const decrement = (amount) => ({
+      type: 'DECREMENT',
+      payload: amount
+    });
+
+    // reducer.js
+    const initialState = { count: 0 };
+
+    export const counterReducer = (state = initialState, action) => {
+      switch (action.type) {
+        case 'INCREMENT':
+          return { count: state.count + action.payload };
+        case 'DECREMENT':
+          return { count: state.count - action.payload };
+        default:
+          return state;
+      }
+    };
+
+    // store.js
+    import { createStore } from 'redux';
+    import { counterReducer } from './reducer';
+
+    const store = createStore(counterReducer);
+
+    // Dispatching actions
+    store.dispatch(increment(1));
+    store.dispatch(decrement(1));
+
+    console.log(store.getState()); // Output: { count: 0 }
+    ```
+
+### What are middlewares? and what happens if they are not there?
+  - **Middleware:** Enhances the store's abilities by intercepting actions and enabling custom functionality during dispatch.
+  - **Uses:** Commonly used for handling asynchronous operations, logging, error handling, and other side effects.
+  - **Without Middleware:**
+    - Asynchronous handling becomes more challenging.
+    - Side effect management is less structured.
+    - Reduced extensibility and maintainability.
+    - Simpler but limited dispatching of actions.
+### Redux Thunk VS Saga ?
+  - Both Redux Thunk and Redux Saga are middleware libraries for handling asynchronous actions in Redux applications. They provide different approaches and capabilities for managing side effects in your application.
+
+
+
+
+
+
+### Advantages/ Disadvantages of ReactJS

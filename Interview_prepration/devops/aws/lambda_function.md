@@ -1,8 +1,13 @@
-### Do you have knowledge of any serverless technology such as AWS Lambda functions?
-### How does Lambda work?
-### As Lambda is a function, someone has to trigger it. So what is the trigger point for a Lambda function?
-### Pros and cons of Lambda function.
-### What is the default execution time of a Lambda function?
-### What are the layers in a Lambda function?
-### How do you upload code in a Lambda function?
-### What is the use of lambda function when we should use ?
+- **Do you have knowledge of any serverless technology such as AWS Lambda functions?**
+- **How does Lambda work?**
+- **As Lambda is a function, someone has to trigger it. So what is the trigger point for a Lambda function?**
+- **Pros and cons of Lambda function.**
+- **What is the default execution time of a Lambda function?**
+- **What are the layers in a Lambda function?**
+- **How do you upload code in a Lambda function?**
+- **What is the use of lambda function when we should use ?**
+- **[AWS Lambda - Managing multiple Versions](https://youtu.be/ROuZERPZ5fA?si=n4DtVAOsegqfP4sA)**
+- **[Secure AWS S3 with KMS Encryption](https://youtu.be/uqyf66kgB94?si=WBzdXsSbzSFE3qta)**
+- **How do you deploy your server less application using aws lambda api gateway?**
+- **What are d/f settings available in API gateway like how will you route particularly lambda or recourses?**
+- **[Lambda Authorizers]**(https://www.youtube.com/watch?v=al5I9v5Y-kA)
