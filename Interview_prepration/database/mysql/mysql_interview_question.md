@@ -41,7 +41,31 @@
 - **Will it slow down `DELETE` and `UPDATE` queries if we create indexes?**
    - **Yes**, creating indexes can slow down `DELETE` and `UPDATE` queries since every index associated with the table must be updated when a record is modified or deleted.
 
+- **To find the second largest salary for each department in an ```emp``` table with columns ```id, name, salary, and dept_number```,** 
+  - Here is an example using a common SQL approach with sub queries:
+    ```sql
+    SELECT dept_number, MAX(salary) AS second_highest_salary
+    FROM emp
+    WHERE salary < (
+        SELECT MAX(salary)
+        FROM emp AS e2
+        WHERE e2.dept_number = emp.dept_number
+    )
+    GROUP BY dept_number;
+  ```
 
+- **Alternative Approach Using Window Functions**
+  ```sql
+  SELECT dept_number, salary AS second_highest_salary
+  FROM (
+      SELECT
+          dept_number,
+          salary,
+          ROW_NUMBER() OVER (PARTITION BY dept_number ORDER BY salary DESC) AS row_num
+      FROM emp
+  ) AS ranked_salaries
+  WHERE row_num = 2;
+  ```
 
 ## Reference Link :
 - [SQL indexing best practices | How to make your database FASTER!](https://youtu.be/BIlFTFrEFOI?si=1GpXZYln5MrNKQvS)
