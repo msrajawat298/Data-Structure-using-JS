@@ -4,6 +4,8 @@
 ### What is SQS?
 ### How do you decide to use AWS SQS?
 ### What is DLQ in SQS?
+### What are the differences between SQS and SNS?
+### Whats the maximum size allowed for an input in AWS Step Functions?
 ### How would you decide whether to create a REST API or use SQS?
 ### what do you mean by low latency and high latency (delay)?
 ### What do you mean by high throughput (​flow capacity)?

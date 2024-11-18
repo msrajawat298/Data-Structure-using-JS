@@ -183,3 +183,162 @@ function x(i){
 x();
 ```
 
+
+### (Question Asked: Cigna Health Care) Kung Fu Panda's Obstacle Challenge
+#### Problem Statement
+- Mr. Tony Lee is a Martial Arts trainer, training Kung Fu Panda for the finals in their kingdom. To prepare for the wicked tiger, Mr. Tony has placed `n` obstacles in a row. These obstacles can be:
+
+- **Thorns (`*`)**: Represents obstacles.
+- **Jumpers (`>`)**: Allows Panda to avoid obstacles to the right.
+- **Jumpers (`<`)**: Allows Panda to avoid obstacles to the left.
+
+#### Rules:
+1. If jumpers `<` and `>` are placed consecutively (i.e., `<>`), the Panda will compulsorily fall and be **punished**.
+2. Your task is to calculate the total number of times the Panda will be punished based on the arrangement of obstacles.
+
+---
+
+## Input Format
+1. The first line contains an integer `n` denoting the total number of objects in the row.
+2. The second line contains `n` space-separated characters representing the row of obstacles. These can only be `*`, `<`, or `>`.
+
+### Constraints
+- `1 ≤ n ≤ 1000`
+- Valid inputs are limited to `*`, `<`, and `>` only.
+
+---
+
+## Output Format
+Output a single integer denoting the number of times the Panda will be punished due to `< >` patterns.
+
+---
+
+
+### Explanation
+In the row `* < > * < > *`:
+- The `< >` pattern occurs twice.
+- Thus, the Panda will be punished `2` times.
+
+---
+
+## Edge Cases
+1. **No `< >` pairs**:
+   - Input: `5 i.e; * > * > *`
+   - Output: `0`
+
+2. **All `< >` pairs**:
+   - Input: `6 i.e; < > < > < >`
+   - Output: `3`
+
+3. **Minimum Input Size**:
+   - Input: `1 i.e; *`
+   - Output: `0`
+
+---
+
+## Solution
+
+### Approach
+1. Traverse the input string.
+2. Check for consecutive characters `< >`.
+3. Count the number of such occurrences.
+
+---
+
+### Sample Code (JavaScript)
+```javascript
+// Read input from STDIN
+const fs = require("fs");
+const input = fs.readFileSync(0, "utf8").trim().split("\n");
+
+const n = parseInt(input[0]); // Total number of objects
+const obstacles = input[1].split(" "); // Obstacles and jumpers
+
+let punishmentCount = 0;
+
+// Iterate through the obstacles to find "< >" patterns
+for (let i = 0; i < n - 1; i++) {
+    if (obstacles[i] === "<" && obstacles[i + 1] === ">") {
+        punishmentCount++;
+    }
+}
+
+// Output the number of times the panda will be punished
+console.log(punishmentCount);
+```
+
+---
+
+### Flood Relief Donation Camp
+#### Problem Statement
+- A flood relief donation camp has been organized in a society with `M` houses. Each house has contributed some funds according to their wish. 
+
+- Now, the residents want to know the total amount collected, excluding their own donation, for each house.
+
+- #### Objective:
+  - Write a program that:
+    1. Takes the contributions made by `M` houses as input.
+    2. Outputs the total fund collected by all others for each house.
+
+---
+
+- #### Input Format
+  1. The first line contains an integer `M` denoting the number of houses in the society.
+  2. The second line contains `M` space-separated integers denoting the contributions made by the `M` houses.
+
+- #### Constraints
+  - `M > 0`
+  - Each contribution amount is a positive integer.
+
+---
+
+## Output Format
+Output a single line containing `M` space-separated integers. Each integer at index `i` represents the total funds collected, excluding the contribution from the `i-th` house.
+
+
+
+### Explanation
+For each house, the total contribution by all other houses is calculated:
+- For the 1st house (3): `6 + 4 + 8 + 9 + 2 + 7 = 30`
+- For the 2nd house (6): `3 + 4 + 8 + 9 + 2 + 7 = 34`
+- For the 3rd house (4): `3 + 6 + 8 + 9 + 2 + 7 = 31`
+- And so on...
+
+---
+
+## Edge Cases
+1. **Single house**:
+   - Input: `1 i.e; 5`
+   - Output: `0`
+
+2. **All contributions are the same**:
+   - Input: `3 i.e; 5 5 5`
+   - Output: `10 10 10`
+
+3. **Minimum contributions**:
+   - Input: `2 i.e; 1 2`
+   - Output: `2 1`
+
+---
+
+## Solution
+
+### Approach
+1. Calculate the total sum of all contributions.
+2. For each house, subtract its contribution from the total sum to compute the required result.
+
+---
+
+### Sample Code (JavaScript)
+```javascript
+// Read input from STDIN
+const fs = require("fs");
+const input = fs.readFileSync(0, "utf8").trim().split("\n");
+
+const M = parseInt(input[0]); // Number of houses
+const contributions = input[1].split(" ").map(Number); // Contributions array
+
+const totalSum = contributions.reduce((acc, curr) => acc + curr, 0); // Calculate total sum
+const result = contributions.map(contribution => totalSum - contribution); // Exclude each contribution
+
+console.log(result.join(" ")); // Output result as space-separated values
