@@ -26,3 +26,5 @@
 - [length-of-longest-fibonacci-subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/description/)
 - [n-th-tribonacci-number](https://leetcode.com/problems/n-th-tribonacci-number/description/)
 - [fibonacci-number](https://leetcode.com/problems/fibonacci-number/description/)
+- [count-binary-substrings](https://leetcode.com/problems/count-binary-substrings/description/)
+- [2833. Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/description/)
