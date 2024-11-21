@@ -608,5 +608,7 @@ boundGreet('!'); // Output: Hello, Alice!
 
 
 
-
+- What is inheritance how to implement in js. 
+- What is promises?
+- Explain event loop taking the example of setTimeout. 
 

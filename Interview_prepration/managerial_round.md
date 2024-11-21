@@ -45,19 +45,21 @@ for example I will answer it something like
 - you are asked to learn a new technology for a new project and then in that case what you will do ? 
 - one is you are introduced in a new project with a tight deadline client is not happy they are not clear requirements what you will do so?
 
+-- Cvent 
+- Can you tell me where you are disagree with team or manager?
+- Can you tell me any example hard solution you have provided yo go above and beyond in you comfort zone
+
 
 
 
 
 -- TCS 
-• What are your technical skills?
-• What was my role in current company and
-current project ?
-• Why do you work on node js ? Why node js is
-better ?
-• What problem did you faced ?
-Do you have any questions for us ?
-• Ask about feedback
-• Ask about project tools and technologies
-• Ask about company culture and values
-• Ask any doubts that you have
+- What are your technical skills?
+- What was my role in current company and current project ?
+- Why do you work on node js ? Why node js is better ?
+- What problem did you faced ?
+- Do you have any questions for us ?
+- Ask about feedback
+- Ask about project tools and technologies
+- Ask about company culture and values
+- Ask any doubts that you have

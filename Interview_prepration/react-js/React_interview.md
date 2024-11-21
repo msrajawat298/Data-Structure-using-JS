@@ -401,9 +401,23 @@ export default App;
 ### Redux Thunk VS Saga ?
   - Both Redux Thunk and Redux Saga are middleware libraries for handling asynchronous actions in Redux applications. They provide different approaches and capabilities for managing side effects in your application.
 
-
-
-
-
-
 ### Advantages/ Disadvantages of ReactJS
+
+
+-- Cvent
+- 2nd round questions 
+- Implement the Explorer View using React JS
+- Note : 
+  - 1. Example Explorer view is below
+  - 2. Design the JSON representing the folder structure
+  - 3. Implement the Explorer view in React
+```
+Root
+    public
+        index.html
+    src
+        components
+            Home.js
+        App.js
+    package.json
+```
