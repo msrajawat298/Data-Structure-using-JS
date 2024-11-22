@@ -123,3 +123,34 @@ Rebekah 60
 SELECT CONCAT(Name, ' ', Age) AS Name_Age
 FROM PersonalDetails;
 ```
+
+### Asked by Synup
+User 
+Account 
+Folder 
+Location 
+Sub Location
+
+One Account Can have multiple  folder 
+One Folder Can have multiple Location 
+One Location Can have multiple  Sub locations
+One Account can have multiple users 
+One User can have multiple Accounts
+One Folder can have multiple users access
+One User can have access to  multiple folder
+
+Account have child folder and folder have child location and location have child location
+Account Can have direct assigned Location without creating folder
+
+Create a db schema in Postgres sql in such as way that user assigned to parent can see all child 
+Lets account A1 is a parent and there are 3 child c1, c2, and c3 
+If user have access of A1 then it can be access all child c1, c2 and c3 
+But if user assigned to c1 only then it can only access c1 child only not c2 or c3 or other siblings but it can be know there parents such as A1 is there parents
+User can be assigned directly to the location and sub location
+If in c1 have 3 location l1, l2, l3 and each location have sub location sl1, sl2, sl3 
+Then If user assigned l1 then it can only see there sub location not the siblings and if user assigned the direct sublocaion such as sl2 then it can’t we access any other.
+
+
+
+Create php rest api endpoint (getAllFoldersAndLocation by userID )that should return all details of location and sub-location
+```
