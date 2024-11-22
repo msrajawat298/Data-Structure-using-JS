@@ -1,0 +1,23 @@
+- **1. What is CSS Preprocessors? What is SCSS?**
+- **1. What are the 3 Types of CSS Preprocessors?**
+- **1. What are Selectors in CSS? How many Types of selectors are there?**
+- **1. Explain the concent of the Box Model in CSS.**
+- **1. What is the difference between Padding and Margin?**
+- **1. What is the difference between display: inline & display: block?**
+- **1. What is z-index property in CSS? How same z-index elements will be displayed?**
+- **1. What is the difference between position: relative/ absolute fixed?**
+- **1. What are Media Queries in CSS?**
+- **1. What is display: flex in CSS?**
+- **1. What is CSS Grid Layout in CSS?**
+
+- **What is d/f b/w flex and grid layout in css?**
+    - **Flexbox**
+        - **One-dimensional:** Flexbox is designed for one-dimensional layouts, either a row or a column.
+        - **Alignment:** Provides powerful alignment capabilities for distributing space within a container.
+        - **Use Case:** Best for small-scale layouts and aligning items along a single axis.
+        - **Properties:** Uses properties like flex-direction, justify-content, align-items, and flex-wrap.
+    - **Grid**
+        - **Two-dimensional:** Grid is designed for two-dimensional layouts, both rows and columns.
+        - **Complex Layouts:** Ideal for creating complex and responsive grid-based layouts.
+        - **Use Case:** Best for large-scale layouts where you need to control both rows and columns.
+        - **Properties:** Uses properties like grid-template-rows, grid-template-columns, grid-gap, and grid-area.
