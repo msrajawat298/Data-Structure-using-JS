@@ -30,7 +30,14 @@
     - How do you handle API calls on your React App? Axios..
     - How will you chain multiple API calls that is depending on the previous request?
     - Explain this keyword with arrow function and normal.
-    - Event bubbling
+    - **Event bubbling (Child to Parent)** 
+        - **Event Bubbling:** An event propagation method where events bubble up from the target element to the root.
+        - **Usage:** Allows handling events at a higher level in the DOM tree.
+        Stopping Bubbling: Use event.stopPropagation() to prevent the event from propagating further.
+    - **Event Capturing (Parent to Child)**
+    - **Event Capturing:** An event propagation method where events capture down from the root to the target element.
+    - **Usage:** Allows handling events during the capturing phase before they reach the target element.
+    **Capturing Phase:** Use true as the third argument in addEventListener to specify the capturing phase.
     - ES6 features you have used.
     - Difference between map, filter and foreach
     - Deep copy vs Shallow copy

@@ -15,6 +15,8 @@
 - [React Portal](https://youtu.be/HpHLa-5Wdys?si=aGjMjXP59dGwAFSd)
 - [Error Boundary](https://youtu.be/DNYXgtZBRPE?si=y3UF2G0HxX2dErHA)
 - [React js VIRTUALIZED LIST](https://youtu.be/Yz4eK-4LKXg?si=HAkANz0Y8ASLamzB)
+- [How To Maximize Performance In Your React Apps](https://youtu.be/Qwb-Za6cBws?si=CSyQKW2lWzWW02_Z)
+- [How To Debug React Apps Like A Senior Developer](https://youtu.be/l8knG0BPr-o?si=zmigkRF12JHE6iSf)
 - [8 React Js performance optimization techniques YOU HAVE TO KNOW!](https://youtu.be/CaShN6mCJB0?si=uOUXEbQgR1y-TjeR)
   - **List Virtualization or Windowing**
   - **Pagination**
@@ -334,3 +336,11 @@ export default App;
   - Both Redux Thunk and Redux Saga are middleware libraries for handling asynchronous actions in Redux applications. They provide different approaches and capabilities for managing side effects in your application.
 
 ---
+
+### What is Synthetic event in react?
+- A Synthetic Event in React is a wrapper around the native browser event system. It provides a consistent interface for handling events across different browsers, ensuring compatibility and abstraction over the browser's quirks. Synthetic events are part of React's event system and are used for handling user interactions like clicks, keypresses, and form submissions.
+- **Key Features of Synthetic Events**
+  - Cross-Browser Compatibility
+  - Event Pooling
+  - Consistent API
+  - Synthetic Wrapper
