@@ -342,3 +342,11 @@ const totalSum = contributions.reduce((acc, curr) => acc + curr, 0); // Calculat
 const result = contributions.map(contribution => totalSum - contribution); // Exclude each contribution
 
 console.log(result.join(" ")); // Output result as space-separated values
+```
+
+---
+
+### Write a program to find the missing number in array (asked by Codeforge)
+```const arr = [1,11,16,3,5,7,8];```
+
+----

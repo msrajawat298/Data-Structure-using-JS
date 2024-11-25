@@ -30,6 +30,7 @@
 - [What is shadow dom?](https://youtu.be/7Tok22qxPzQ?si=gsCPyuUGqeYAcYy7)
 - [custom-elements-shadow-dom](https://github.com/msrajawat298/custom-elements-shadow-dom)
 - [microtasks queue](https://youtu.be/zyTfNKMY0VM?si=RRofROy_N7XU1BuG)
+- [Mutation Observer](https://youtu.be/Mi4EF9K87aM?si=KalCfsU2GcU7GUgd)
 
 ## [Design Patterns in js]
 

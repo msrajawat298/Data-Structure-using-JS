@@ -62,3 +62,5 @@
 - **How to jump end of the file in vim?**
 - **How to save file without :wq cmd?**
 - **How to edit or replace or append the data into the file without open it.**
+- **Filter list of file size greater than 500kb**
+  - ```find . -type f -size +500k -exec ls -lh {} \;```

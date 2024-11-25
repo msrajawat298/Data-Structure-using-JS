@@ -594,6 +594,7 @@ boundGreet('!'); // Output: Hello, Alice!
 
 ### What is lexical scope?
 - Lexical scope, also known as static scope, refers to the scope of a variable being determined by its physical location within the source code. In other words, the scope is defined by the structure of the code and the location where variables and functions are declared.
+
 ### What is callback hell in JS?
   - **Callback Hell:** A situation where multiple nested callbacks make the code difficult to read and maintain.
   - **Promises:** Provide a more readable way to handle asynchronous operations, avoiding deeply nested callbacks.
@@ -611,4 +612,5 @@ boundGreet('!'); // Output: Hello, Alice!
 - What is inheritance how to implement in js. 
 - What is promises?
 - Explain event loop taking the example of setTimeout. 
-
+- D/f b/w Object.Freeze and Const?
+- Event Delegation
