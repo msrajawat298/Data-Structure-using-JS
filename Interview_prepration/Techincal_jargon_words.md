@@ -6,3 +6,6 @@
 - **Throughput**
 - **Throttling**
 - **Fault tolerance**
+- **Stateless**
+- **Statefull**
+- **ServerLess**

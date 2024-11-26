@@ -24,6 +24,41 @@
     - Do you have offer already ?
     - Since you have another offer so is that if we provide offer you will still going to try for more options how much possibility you will join us?
 
+- **Asked By HARMAN**
+    - Create one custom hook in react
+    - What is React fragment?
+    - What is Hosting?
+    - Tell me ES6 features in JS.
+    - D/f b/w Promise.All and Promise.Race where can we use practical?
+    - What is the use of middleware in express js?
+    - List out middleware provided by express js?
+    - What is the use of next() in middleware?
+    - What is the d/f of app.use and app.get.
+    - What is d/f b/w put and patch?
+    - RESTful APIs: Stateless or Stateful?
+    - How to Secure the api any lib or any method etc.
+    - What is virtual dom?
+    - Which version you are using in react?
+    - What is React Fiber?
+    - Have you worked on any Database?
+    - What is javascript hosting?
+    - D/f b/w normal function and arrow function?
+    - Have you worked any css framework?
+    - Have you worked on redux or redux toolkit?
+    - Have you used any middleware?
+    - Any experience of redux saga?
+
+    - ```js
+        console.log ("4");
+        setTimeout (() => {
+            console.log ("5");
+        3, 0);
+        Promise.resolve ("hello").then (() => console.log("2"));
+        setTimeout(0) => {
+            console.log("1");
+        3, 1000);
+        console.log ("3");
+    ```
 - **Others**
     - How to avoid mutating an array when performing an operation
         - Use methods like map, filter, concat, slice, and the spread operator to create new arrays without mutating the original array.

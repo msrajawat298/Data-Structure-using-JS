@@ -607,6 +607,8 @@ boundGreet('!'); // Output: Hello, Alice!
   - **Avoiding:** Callback Hell: Promises help avoid deeply nested callbacks.
   - **Async/Await:** Provides a more readable way to work with promises.
 
+### Promise.all: Waits for all promises to resolve or any to reject. Use when you need all results.
+### Promise.race: Resolves or rejects as soon as one promise resolves or rejects. Use for scenarios like timeouts.
 
 
 - What is inheritance how to implement in js. 

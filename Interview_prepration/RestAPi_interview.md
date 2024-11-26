@@ -143,6 +143,13 @@
 - **What's the difference between idempotent and safe HTTP methods?**
 - **Explain caching in a RESTful architecture?**
 - **Best practices in developing a RESTful web service**
+- **RESTful APIs: Stateless or Stateful?**
+    - **RESTful APIs:** Stateless by design.
+    - **Stateless:** Each request is independent, containing all necessary information.
+    - **Benefits:** Improved scalability, reliability, and simplicity.
+
+
+
 
 
 ## Reference Link

@@ -17,6 +17,7 @@
 - [React js VIRTUALIZED LIST](https://youtu.be/Yz4eK-4LKXg?si=HAkANz0Y8ASLamzB)
 - [How To Maximize Performance In Your React Apps](https://youtu.be/Qwb-Za6cBws?si=CSyQKW2lWzWW02_Z)
 - [How To Debug React Apps Like A Senior Developer](https://youtu.be/l8knG0BPr-o?si=zmigkRF12JHE6iSf)
+- [Junior Vs Senior Code - How To Write Better Code As A Web Developer - React](https://youtu.be/0yzoAbrjV6k?si=FbbGbBFn7DEePA_g)
 - [8 React Js performance optimization techniques YOU HAVE TO KNOW!](https://youtu.be/CaShN6mCJB0?si=uOUXEbQgR1y-TjeR)
   - **List Virtualization or Windowing**
   - **Pagination**

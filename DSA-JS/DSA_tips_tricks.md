@@ -3,7 +3,6 @@
 ## Terminologies
 - **Out of Bound**: Refers to accessing elements outside the valid index range of a data structure, such as arrays or lists, leading to undefined behavior or errors.
 - **Stack Overflow**: Occurs when a program's call stack exceeds its allocated size, typically due to deep or infinite recursion.
-
 ---
 
 ## Tips and Tricks
