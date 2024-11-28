@@ -1,4 +1,5 @@
 ## Reference Link to learn and Prepare for interviews
+- [Virtual DOM, Fibre and reconciliation](https://youtu.be/MPCVGFvgVEQ?si=Y2e99_GhOAgEQ1Iw)
 - [Prop Drilling in React JS ](https://youtu.be/CeY1sd80Hxo?si=G6E6mYmOZfK5RLZc)
 - [Context API](https://youtu.be/Qe9uObzq76M?si=s_FBVD8kDk_Y7G9C)
 - [useContext in React](https://youtu.be/iFssz5lpncw?si=OQhtx8lb4g5OMVlO)
@@ -18,6 +19,7 @@
 - [How To Maximize Performance In Your React Apps](https://youtu.be/Qwb-Za6cBws?si=CSyQKW2lWzWW02_Z)
 - [How To Debug React Apps Like A Senior Developer](https://youtu.be/l8knG0BPr-o?si=zmigkRF12JHE6iSf)
 - [Junior Vs Senior Code - How To Write Better Code As A Web Developer - React](https://youtu.be/0yzoAbrjV6k?si=FbbGbBFn7DEePA_g)
+- [The Only Accessibility Video You Will Ever Need](https://www.youtube.com/watch?v=2oiBKSjOOFE)
 - [8 React Js performance optimization techniques YOU HAVE TO KNOW!](https://youtu.be/CaShN6mCJB0?si=uOUXEbQgR1y-TjeR)
   - **List Virtualization or Windowing**
   - **Pagination**
