@@ -350,3 +350,27 @@ console.log(result.join(" ")); // Output result as space-separated values
 ```const arr = [1,11,16,3,5,7,8];```
 
 ----
+
+### Asked by Tredence.com
+- **Write a function of curring to addition the numbers**
+```js
+function add(...args1) {
+    return function (...args2) {
+        if (args2.length === 0) {
+            // If no more arguments, return the sum
+            return args1.reduce((sum, num) => sum + num, 0);
+        }
+        // If more arguments, combine and return a new curried function
+        return add(...args1, ...args2);
+    };
+}
+
+// Usage:
+console.log(add(1, 2)(3, 4)());    // Output: 10
+console.log(add(5)(10)(15)());    // Output: 30
+console.log(add(2, 3, 4)());      // Output: 9
+console.log(add(1)());            // Output: 1
+```
+- **What is closure? give me some examples**
+- **Implement the add function using closure**
+- **follow up question call the add function using closure with operator**

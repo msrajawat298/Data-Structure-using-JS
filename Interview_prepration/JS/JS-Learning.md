@@ -31,7 +31,7 @@
 - [custom-elements-shadow-dom](https://github.com/msrajawat298/custom-elements-shadow-dom)
 - [microtasks queue](https://youtu.be/zyTfNKMY0VM?si=RRofROy_N7XU1BuG)
 - [Mutation Observer](https://youtu.be/Mi4EF9K87aM?si=KalCfsU2GcU7GUgd)
-
+- [What is module in js]()
 ## [Design Patterns in js]
 
 1. [Factory Pattern](https://youtu.be/kuirGzhGhyw?si=JZhGdI55aKP4ZndX)
@@ -50,7 +50,11 @@
 - [Build React.js From Scratch](https://youtu.be/zx6GRScq93U?si=Sy_CGUKuAb5fZvUB)
 - [Building an Unblockable Web Scraper with Proxies! | Node.js](https://youtu.be/oF71O9urS14?si=sDLTOR6Rencgc88y)
 - [Javascript Core Concepts](https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37)
-
+- [devtools.tech](https://devtools.tech/questions/all?language=javascript)
+- [javascript.info](https://javascript.info/)
+- [front-end-system-design](https://www.frontendinterviewhandbook.com/front-end-system-design)
+- [The RADIO Framework](https://www.greatfrontend.com/system-design/framework)
+-
 
 
 

@@ -303,6 +303,10 @@ Some commonly used ES6 features:
   ```
 
 - **let/const**: Block-scoped variable declarations.
+- **Export and Import:** ES6 features for modularizing JavaScript code.
+- **Named Export/Import:** Export and import multiple values.
+- **Default Export/Import:** Export and import a single default value.
+- **Renaming Imports:** Rename imports to avoid conflicts.
 
 
 ### 19. What is curry in js ?
