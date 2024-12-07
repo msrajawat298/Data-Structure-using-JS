@@ -131,3 +131,4 @@
 ## Reference Link
 - [Node JS 50 MCQ Questions and Answers for BEGINNERS](https://youtu.be/omXqa2XGoWI?si=QNIIl2Oc_gYLVB7H)
 - [NodeJS Interview Questions](./NodeJS%20Interview%20Questions.pdf)
+- [Can NODE.JS Server Handle 1M Concurrent Requests? | Real-World App Benchmarking on Dedicated VPS](https://youtu.be/nC5UbrpbD5E?si=piuBiNTOP70Pc6hn)

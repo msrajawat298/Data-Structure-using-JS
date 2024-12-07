@@ -21,6 +21,8 @@
 - [Junior Vs Senior Code - How To Write Better Code As A Web Developer - React](https://youtu.be/0yzoAbrjV6k?si=FbbGbBFn7DEePA_g)
 - [The Only Accessibility Video You Will Ever Need](https://www.youtube.com/watch?v=2oiBKSjOOFE)
 - [8 React Js performance optimization techniques YOU HAVE TO KNOW!](https://youtu.be/CaShN6mCJB0?si=uOUXEbQgR1y-TjeR)
+- [React 19 is now stable! - What's new in React 19](https://www.youtube.com/watch?v=WvGexufMouA)
+- [React 19 is FINALLY Here! Major Changes You Should Know](https://youtu.be/S2kOF-W-xos?si=MyQkwVpMK_CoQbZM)
   - **List Virtualization or Windowing**
   - **Pagination**
   - **Asset Optimization Lazy Loading Image or Minified and compressed assets like JavaScript, CSS, and images**
