@@ -23,6 +23,7 @@
 - [8 React Js performance optimization techniques YOU HAVE TO KNOW!](https://youtu.be/CaShN6mCJB0?si=uOUXEbQgR1y-TjeR)
 - [React 19 is now stable! - What's new in React 19](https://www.youtube.com/watch?v=WvGexufMouA)
 - [React 19 is FINALLY Here! Major Changes You Should Know](https://youtu.be/S2kOF-W-xos?si=MyQkwVpMK_CoQbZM)
+- [useId() Hook](https://youtu.be/wzyPlUJNcsM?si=-3pFW2Pok23tqH9q)
   - **List Virtualization or Windowing**
   - **Pagination**
   - **Asset Optimization Lazy Loading Image or Minified and compressed assets like JavaScript, CSS, and images**
@@ -349,3 +350,90 @@ export default App;
   - Event Pooling
   - Consistent API
   - Synthetic Wrapper
+
+---
+
+CSR, SSR, SSG, and ISR are rendering techniques used in modern web development to improve performance, SEO, and user experience. Here’s a breakdown of each:  
+
+---
+
+### **1. CSR (Client-Side Rendering)**  
+**How it works:**  
+- The initial HTML sent from the server is almost empty.  
+- JavaScript runs on the client’s browser to fetch and render the content.  
+
+**Use Case:**  
+- Single-page applications (SPAs) like React.js, Angular, or Vue.js.  
+
+**Pros:**  
+- Better interactivity after initial load.  
+- Less load on the server.  
+
+**Cons:**  
+- Slower first page load.  
+- Poor SEO if not optimized.
+
+---
+
+### **2. SSR (Server-Side Rendering)**  
+**How it works:**  
+- The server generates a fully-rendered HTML page and sends it to the client.  
+- JavaScript then takes over to make the page interactive.  
+
+**Use Case:**  
+- Content-heavy websites requiring good SEO (e.g., blogs, e-commerce).  
+
+**Pros:**  
+- Faster initial load.  
+- Better SEO and accessibility.  
+
+**Cons:**  
+- Higher server load.  
+- Slower navigation between pages.
+
+---
+
+### **3. SSG (Static Site Generation)**  
+**How it works:**  
+- Pages are pre-rendered at build time and served as static files.  
+
+**Use Case:**  
+- Blogs, marketing websites, and documentation sites.  
+
+**Pros:**  
+- Fast page load.  
+- No server processing needed at runtime.  
+
+**Cons:**  
+- Rebuilding the site is required for content updates.  
+- Not ideal for frequently changing data.
+
+---
+
+### **4. ISR (Incremental Static Regeneration)** (Next.js specific)  
+**How it works:**  
+- Combines SSG and SSR.  
+- Pages are pre-rendered at build time, but outdated pages are regenerated on-demand in the background.  
+
+**Use Case:**  
+- News sites, e-commerce product pages, and dashboards with frequent updates.  
+
+**Pros:**  
+- Fast page loads.  
+- Dynamic updates without rebuilding the whole site.  
+
+**Cons:**  
+- Slightly more complex setup.  
+
+---
+
+### Summary Table:
+
+| Rendering Type  | Initial Load Time | SEO-Friendly | Dynamic Content | Use Case            |
+|-----------------|--------------------|---------------|------------------|---------------------|
+| **CSR**         | Slow               | No (by default) | Yes              | SPAs, dashboards   |
+| **SSR**         | Fast               | Yes            | Yes              | Blogs, e-commerce  |
+| **SSG**         | Fast               | Yes            | No (unless rebuilt) | Docs, portfolios |
+| **ISR**         | Fast               | Yes            | Yes              | News, products     |
+
+---
