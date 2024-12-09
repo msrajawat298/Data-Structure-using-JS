@@ -63,3 +63,17 @@ for example I will answer it something like
 - Ask about project tools and technologies
 - Ask about company culture and values
 - Ask any doubts that you have
+
+-- Tredence
+- You Project you worked on what challenges you faced? How did you overcome it?
+- While Migrating all tech stack to new tech stack only re-d
+- Which Scenario do we use webhooks?
+- Any Design patterns you know any of the micro services path you follow?
+- What is event loop?
+- System Design of ola or ride sharing app
+- let's design schema of that system design.
+- did we assume it will be distributed system.
+- why you choose mysql and what is the mean of consistency.
+- What agreement have you used rest, graphQL etc.
+- can you just tell me status used by rest api?
+- Have you worked on like people management have you ever done people reporting to you.
