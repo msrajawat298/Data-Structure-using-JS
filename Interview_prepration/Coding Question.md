@@ -351,7 +351,7 @@ console.log(result.join(" ")); // Output result as space-separated values
 
 ----
 
-### Asked by Tredence.com
+### Asked by Tredence.com (1st round)
 - **Write a function of curring to addition the numbers**
 ```js
 function add(...args1) {
@@ -374,3 +374,66 @@ console.log(add(1)());            // Output: 1
 - **What is closure? give me some examples**
 - **Implement the add function using closure**
 - **follow up question call the add function using closure with operator**
+
+---
+- **Asked By Bit GO**
+1. Approaching Fibonacci : Have the function ApproachingFibonacci (arr) take the azz parameter being passed which will be an array of integers and determine the smallest positive integer (including zero) that can be added to the array to make the sum of all of the numbers in the array add up to the next closest Fibonacci number. 
+ For example: if arr is [15, 1, 3], 
+ then your program should output 2 because if you add up 15 + 1 + 3 + 2 you get 21 which is the closest Fibonacci number.
+  Examples
+    Input: [5,2,1]
+  Output: 0
+  Backlogs
+    Input: [1,20,2,5]
+  Output: 6
+
+
+2. The function **`ShortestPath(strArr)`** takes an input array **`strArr`** representing a non-looping graph and determines the shortest path from the first node to the last node in the graph. 
+
+- Input Format
+  1. The first element of the array is the number of nodes (**`N`**) as a string.
+  2. The next **`N`** elements represent the nodes, which can be strings (e.g., `A`, `B`, `C`) or any descriptive names (e.g., `Brick Street`, `Main Street`).
+  3. The remaining elements represent connections between nodes, written as strings in the form `A-B`, indicating that there is a bidirectional connection between `A` and `B`.
+
+- Output
+  - The function returns the shortest path from the first node to the last node, represented as a sequence of node names separated by dashes (`-`).
+  - If no path exists between the first and last node, return `-1`.
+
+- Example 1
+  **Input:**  
+  ```javascript
+  ["5", "A", "B", "C", "D", "F", "A-B", "A-C", "B-C", "C-D", "D-F"]
+  ```
+
+  **Output:**  
+  ```
+  A-C-D-F
+  ```
+
+- Example 2
+  **Input:**  
+  ```javascript
+  ["4", "X", "Y", "Z", "W", "X-Y", "Y-Z", "X-W"]
+  ```
+
+  **Output:**  
+  ```
+  X-W
+  ```
+
+  ### Example 3
+  **Input:**  
+  ```javascript
+  ["3", "P", "Q", "R", "P-Q"]
+  ```
+
+  **Output:**  
+  ```
+  -1
+  ```
+
+- **Constraints**
+  1. The array will contain at least two nodes.
+  2. Connections are bidirectional, meaning if `A-B` exists, both `A` can connect to `B` and `B` can connect to `A`.
+  3. Each node in the graph is unique.
+  4. There will always be at most one shortest path for the array.

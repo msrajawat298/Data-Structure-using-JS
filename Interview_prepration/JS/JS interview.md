@@ -620,3 +620,182 @@ boundGreet('!'); // Output: Hello, Alice!
 - Explain event loop taking the example of setTimeout. 
 - D/f b/w Object.Freeze and Const?
 - Event Delegation
+
+--- 
+## Asked By Techstar | Fullstack Developer Round 1st
+
+- **What is this in js ?**
+- **What shallow copy?**
+- **write example of shallow copy and deep copy?**
+- **extract first name and last name**
+  ```js
+  let name ="VenkatesanChandirasekar"
+  console. log("firstname", Venkatesan)
+  console. log("lastname" ,Chandirasekar)
+  ```
+- **Flat Array without built in function**
+  ```let faultArray  =[1,2,3, [4,51, [6],8];```
+- **write a function to isPalidrome without built in function also not use split function**
+- **What is promise?**
+- **Type of promises?**
+- **when we should use promise all, settle and race ?**
+- **D/f b/w Throttling and Debouncing**
+- **Each County have state, you suppose to show first all country name and on click country name it should show all state of particular county**
+  ```js
+    const countries = [
+    { name: "United States", states: "California" },
+    { name: "United States", states: "Texas" },
+    { name: "Canada", states: "Ontario" },
+    { name: "Australia", states: "Victoria" },
+    { name: "India", states: "Madhya Pradesh" },
+    { name: "India", states: "Karanatka" },
+    { name: "India", states: "Mumbai" },
+    { name: "India", states: "Delhi" },
+  ];
+  ```
+
+
+---
+**Asked by Global Logic L1 Interview React and Node JS**
+- Have you got a chance to upgrade one version to other in react js?
+- Do you know es6 concepts and where we are use now a days?
+- What is hosting in js and write one example of var and function?
+- What are HOF in js?
+- What event Bubbling and event capturing?
+- How Can you use function or call this function?
+  ```js
+  function higherOrder20 {
+    return function(a,b) {
+      return function() {
+        return a+b;
+      }
+    }
+  }
+  ```
+- What is coercion in js?
+- Guess the output
+  ```js
+  var x = 220;
+  var y = "Hello";
+  var z = undefined;
+  console.log(x || y);
+  console.log(x || z);
+  console.log(x && y);
+  console.log(y && z);
+  ```
+- What is isNAN and explain where are we using?
+  ```js
+  console.log(isNaN("Hello"));
+  console.log(isNaN(345));
+  console.log(isNaN('1'));
+  console.log(isNaN (true));
+  console.log(isNaN(false));
+  console.log(isNaN(undefined));
+  ```
+
+- **Apply map, filter, forEach, reduce in this number array const number = [1,2,3,4];**
+- **Core concepts of react such as Life cycle in react js**
+- **Use function component implement react Life cycle**
+- **D/f b/w call by reference and call by value**
+- **Call by reference and call by value in react js**
+- **Debouncing in react**
+- **What state management concept you are using in your project**
+- **How will you prevent re-rendering**
+- **I submit a one data and storing in db without reloading it should appear in my page so how will you use redux concept here?**
+- **Have you used hook useRef?**
+- **How you are calling the api in your project**
+- **To protect the api call what method are you using?**
+- **Have you worked on child process in node js?**
+- **Node js is single threaded or multi threaded**
+- **Can you tell me how node js working and why it popular**
+
+**Asked by Global Logic L2 Interview React and Node JS**
+- Start with brief introduction
+- Discuss about current project and role and responsibility.
+- Tell me the Data Type in JS
+- What is symbol in js and there use case?
+- If I do variable 
+  ```js
+  var a1 = symbol('mayank');
+  var a2 = symbol('mayank');
+  console.log(a1==a2); ?
+- What is big Integer?
+- What will happen if I added normal Integer with big Integer?
+- What is the use of debugger keyword?
+- what is Implicit type coercion?
+- What will happen?
+  ```js
+    '2' + 2 = ?
+    '2' - - '3' = ?
+    '2' - - 3 = ?
+  ```
+- Can you explain the concept of currying and write a one example?
+- Can you explain the concept of Closure?
+- Flat and array without any build in function.
+- How you doing inheritance in js?
+- explain Promise chaining
+- How do you handle file uploads in Node.js?
+- What is generator function and write and give me some use case of it?
+- What is WeakMap?
+- Are you aware about temporal dead zone?
+- Hosting in JS?
+- Guess the Output
+  ```js
+  console.log(a); 
+  console.log(fun); 
+  console.log(fun2);
+  fun();
+  console.log(b);
+  console.log(c); 
+  fun2();
+  var a = 10;
+  let c = 11;
+
+  function fun(){
+      console.log('Payank');
+  }
+
+  var fun2 = () => {
+      console.log('Payank');
+  }
+
+  console.log(a);
+  /*
+  a is declared with var but not yet initialized, so it is undefined.
+  Output: undefined
+  console.log(fun);
+
+  fun is a function declaration, which is hoisted to the top of its scope.
+  Output: function fun(){ console.log('Payank'); }
+  console.log(fun2);
+
+  fun2 is declared with var, so it is hoisted but not initialized yet, so it is undefined.
+  Output: undefined
+  fun();
+
+  fun is a function declaration and is hoisted, so it can be called.
+  Output: Payank
+  console.log(b);
+
+  b is not declared anywhere in the code, so it will throw a ReferenceError.
+  Output: ReferenceError: b is not defined
+  console.log(c);
+
+  c is declared with let, so it is not hoisted in the same way as var. It is in the "temporal dead zone" until its declaration is encountered.
+  Output: ReferenceError: Cannot access 'c' before initialization
+  fun2();
+
+  This line will not be reached due to the previous ReferenceError.
+  */
+  ```
+- what is Core Module of node js?
+- what is event emitter?
+- JS is single threaded or multi threaded?
+- How Can we achieve multi tread in js?
+- Is there any d/f returning a callback or just call a callback
+- What is buffer class in node js?
+- What is stream?
+- How Can you avoid callback hells in modern js?
+- What is global object in node js?
+- What kind of work you have done in node js?
+

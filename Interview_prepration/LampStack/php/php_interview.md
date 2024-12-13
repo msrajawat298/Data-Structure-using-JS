@@ -244,3 +244,31 @@
     $child->displayMessage();
     ?>
     ```
+
+
+---
+## Asked by Vervent Web Application Full Stack Developer L1 round
+- **D/f b/w require and include in php**
+- **How do you connect mysql database**
+- **Guess the output
+    ```php
+    $x = true and false;
+    var_dump($x);
+
+    for ($i = 0; $i < 5; $i++) {
+        static $y = 0;
+        $y++; 
+        echo $y. " ";
+    }
+    ```
+- **Write a function to reverse the string without built in function**
+- **Write a function to check number is Prime**
+- **What design pattern have you used?**
+- **Implement the interface class**
+- **print str exclude that are not duplicate in js i/p str = 'swissn' o/p  = 'win'**
+- **follow up question print first char that are not duplicate in js i/p str = 'swissn' o/p  = 'w'**
+- **What is Explain in sql, write a query also**
+- **What is trigger**
+- **List out file structure of Laravel**
+- **How can you query using eloquent such fetch list of all user that status active status**
+- **How are you creating the route in laravel**

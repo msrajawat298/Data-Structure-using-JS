@@ -45,6 +45,30 @@
 9. [Retry Pattern](https://youtu.be/fYZfFdbr8mc?si=W8joDB1P-dxyMdDD)
 10. [Builder Pattern](https://youtu.be/McF9ak0kKjA?si=y8vMdmCsLsUOcaxa) 
 
+
+- **How Can we achieve multi tread in js?**
+    - 1. Web Workers (Browser Environment)
+    - 1. Worker Threads (Node.js Environment)
+    - 1. Asynchronous Programming
+    - 1. Parallel Processing Libraries (Libraries like parallel.js)
+
+- **Global Object in JavaScript (Browser Environment)**
+    - In the browser environment, the global object is window. It represents the browser window and provides a set of properties and methods that are available globally.
+
+    - **Key Properties and Methods of the Global Object in the Browser:**
+    - **window:** The global object itself.
+    - **document:** Represents the HTML document loaded in the browser.
+    - **console:** Provides a simple debugging console (e.g., console.log).
+    - **setTimeout:** Schedules a function to be executed after a specified delay.
+    - **setInterval:** Schedules a function to be executed repeatedly at specified intervals.
+    - **alert:** Displays an alert dialog with a specified message.
+    - **location:** Provides information about the current URL.
+
+- **Call by reference and call by value in react js**
+    - Primitives (numbers, strings, booleans) are passed by value.
+    - Objects (arrays, functions, and custom objects) are passed by reference.
+    - In React, immutable patterns like spreading ({ ...prevState }) are encouraged to avoid direct mutation of state objects or arrays, which can lead to unexpected bugs.
+
 ## Reference Links
 - [DevSage Learn JS](https://www.youtube.com/@DevSage/playlists)
 - [Build React.js From Scratch](https://youtu.be/zx6GRScq93U?si=Sy_CGUKuAb5fZvUB)

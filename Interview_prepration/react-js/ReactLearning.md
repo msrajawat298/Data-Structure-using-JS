@@ -437,3 +437,13 @@ CSR, SSR, SSG, and ISR are rendering techniques used in modern web development t
 | **ISR**         | Fast               | Yes            | Yes              | News, products     |
 
 ---
+
+- **Difference between React.memo and useMemo**
+  - React.memo:
+    - Memoizes the entire functional component.
+    - Prevents re-rendering if props have not changed.
+    - Used to optimize functional components.
+  - useMemo:
+    - Memoizes the result of a computation.
+    - Prevents re-execution of the computation if dependencies have not changed.
+    - Used to optimize expensive calculations or derived values within functional components.
